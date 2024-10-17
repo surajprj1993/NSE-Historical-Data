@@ -1,0 +1,907 @@
+23:29:03.380 [main] INFO  com.appdevclaymaster.downloadnsehistoricaldata.DownloadNSEHistoricalData - API_KEY: qdYCcdyW
+23:29:03.388 [main] INFO  com.appdevclaymaster.downloadnsehistoricaldata.DownloadNSEHistoricalData - CLIENT_ID: S765880
+23:29:03.391 [main] INFO  com.appdevclaymaster.downloadnsehistoricaldata.DownloadNSEHistoricalData - CLIENT_PIN: 1312
+23:29:03.391 [main] INFO  com.appdevclaymaster.downloadnsehistoricaldata.DownloadNSEHistoricalData - TOTP: 576477
+23:29:03.392 [main] INFO  com.appdevclaymaster.downloadnsehistoricaldata.DownloadNSEHistoricalData - Connecting to Smart API
+23:29:04.538 [main] INFO  com.angelbroking.smartapi.http.SmartAPIRequestHandler - headers : {"sourceID":"WEB","clientPublicIP":"103.87.165.35","macAddress":"50-2B-73-E5-D9-5A","userType":"USER","clientLocalIP":"192.168.1.102","accept":"application/json"}
+23:29:04.881 [main] INFO  com.angelbroking.smartapi.http.SmartAPIRequestHandler - headers : {"sourceID":"WEB","clientPublicIP":"103.87.165.35","macAddress":"50-2B-73-E5-D9-5A","userType":"USER","clientLocalIP":"192.168.1.102","accept":"application/json"}
+23:29:05.435 [main] INFO  com.angelbroking.smartapi.http.SmartAPIResponseHandler - ***************************
+23:29:05.437 [main] INFO  com.angelbroking.smartapi.SmartConnect - login result: {"data":{"feedToken":"eyJhbGciOiJIUzUxMiJ9.eyJ1c2VybmFtZSI6IlM3NjU4ODAiLCJpYXQiOjE3MjkxMDE1NDUsImV4cCI6MTcyOTE4Nzk0NX0.sM0PcUv97ktuWUloXqSZElK5gg6-vPqm4UI4Khx-uoQGlWLJJKOi0GumtYe1uoKxIryeI-ZdWyY5bU0TXbiiBw","jwtToken":"eyJhbGciOiJIUzUxMiJ9.eyJ1c2VybmFtZSI6IlM3NjU4ODAiLCJyb2xlcyI6MCwidXNlcnR5cGUiOiJVU0VSIiwidG9rZW4iOiJleUpoYkdjaU9pSlNVekkxTmlJc0luUjVjQ0k2SWtwWFZDSjkuZXlKMWMyVnlYM1I1Y0dVaU9pSmpiR2xsYm5RaUxDSjBiMnRsYmw5MGVYQmxJam9pZEhKaFpHVmZZV05qWlhOelgzUnZhMlZ1SWl3aVoyMWZhV1FpT2pFeExDSnpiM1Z5WTJVaU9pSXpJaXdpWkdWMmFXTmxYMmxrSWpvaVkyUTNaakl5T1RBdE1HSmtaQzB6T1RreUxUZ3lOall0TVRZME9XRTFNRFZrTURrd0lpd2lhMmxrSWpvaWRISmhaR1ZmYTJWNVgzWXhJaXdpYjIxdVpXMWhibUZuWlhKcFpDSTZNVEVzSW5CeWIyUjFZM1J6SWpwN0ltUmxiV0YwSWpwN0luTjBZWFIxY3lJNkltRmpkR2wyWlNKOWZTd2lhWE56SWpvaWRISmhaR1ZmYkc5bmFXNWZjMlZ5ZG1salpTSXNJbk4xWWlJNklsTTNOalU0T0RBaUxDSmxlSEFpT2pFM01qa3hPRGM1TkRVc0ltNWlaaUk2TVRjeU9URXdNVFE0TlN3aWFXRjBJam94TnpJNU1UQXhORGcxTENKcWRHa2lPaUk1T1ROalpERmhNeTAyWlRNMExUUTFORGN0T1dSaU15MHhORGRrTm1JeFpUYzBPRFlpTENKVWIydGxiaUk2SWlKOS5XMTlKRmYyOTVpaGstNnZTLWltSkl5OXMxTENkQ2dEeDlVRjBINjBOa1F0N1l1NVRiVDZTZmJTaVd0bG12Z3g2OThYU2JPWU8tY3VxbXhJU0NNck1wdTl3Z2hfUHVuZXZsMlFsVjZ4WUxpbHVOVzl6SnljT20zZWF2S3JmandHcDI0RlBjcFRXQ3hoU1YtMXNwRWJLZmxFZ0t1cnlwYlRPa3c0Y1cwYXJhdmciLCJBUEktS0VZIjoicWRZQ2NkeVciLCJpYXQiOjE3MjkxMDE1NDUsImV4cCI6MTcyOTE4Nzk0NX0.jB1LTD4Xm4asPM3MaqcRBdyMTWnZpbHMG_IETTlRM7W04QtD_r9zfQmfXrjvIeCk9HMhQO5X0VRbbX122dxeug","state":null,"refreshToken":"eyJhbGciOiJIUzUxMiJ9.eyJ0b2tlbiI6IlJFRlJFU0gtVE9LRU4iLCJSRUZSRVNILVRPS0VOIjoiZXlKaGJHY2lPaUpTVXpJMU5pSXNJblI1Y0NJNklrcFhWQ0o5LmV5SjFjMlZ5WDNSNWNHVWlPaUpqYkdsbGJuUWlMQ0owYjJ0bGJsOTBlWEJsSWpvaWRISmhaR1ZmY21WbWNtVnphRjkwYjJ0bGJpSXNJbWR0WDJsa0lqb3dMQ0p6YjNWeVkyVWlPaUl6SWl3aVpHVjJhV05sWDJsa0lqb2lZMlEzWmpJeU9UQXRNR0prWkMwek9Ua3lMVGd5TmpZdE1UWTBPV0UxTURWa01Ea3dJaXdpYTJsa0lqb2lkSEpoWkdWZmEyVjVYM1l4SWl3aWIyMXVaVzFoYm1GblpYSnBaQ0k2TUN3aWFYTnpJam9pYkc5bmFXNWZjMlZ5ZG1salpTSXNJbk4xWWlJNklsTTNOalU0T0RBaUxDSmxlSEFpT2pFM01qa3lOelF6TkRVc0ltNWlaaUk2TVRjeU9URXdNVFE0TlN3aWFXRjBJam94TnpJNU1UQXhORGcxTENKcWRHa2lPaUkzTlRFek1UY3hPQzAyTlRabUxUUmhNalV0WW1ReE1pMHlZamsyTlRJNE1qZ3lZVFFpTENKVWIydGxiaUk2SWlKOS5Gekx5aTRjbGxieFo3YUNwemlJLW02bGNFR2Y5T0h4bzdYN3RQYUE3dllSdmNqb05FT2JQN0I0M3pHclRLT1BkRUZWNFRLQXJCSnJjZ3NEajJTNVhnQVVscml4WXBjUWZUMmluR250WEJ0a3NHT2ZsR3p4SW96V0J1NGEyNmZxTEFScFl1Rm9DRWVkYndzeU94WjF5S0R1aGpqcWtnZXZnSE9RV0tXS3JubWciLCJpYXQiOjE3MjkxMDE1NDV9.hA-Cs-aPBuvPsP_VMgs4Gpa82YmH9Jf-z52ThbCxsFNNNfFXp8BVR4xYrWW5XqC454El8r0P5jSOPHt327OWKA"},"message":"SUCCESS","errorcode":"","status":true}
+23:29:05.461 [main] INFO  com.angelbroking.smartapi.http.SmartAPIResponseHandler - ***************************
+23:29:05.513 [main] INFO  com.appdevclaymaster.downloadnsehistoricaldata.DownloadNSEHistoricalData - Connected to Smart API
+23:29:05.525 [main] INFO  com.appdevclaymaster.downloadnsehistoricaldata.DownloadNSEHistoricalData - Fetching data for AARTIIND from 2024-01-01 to 2024-01-31
+23:29:05.864 [main] INFO  com.angelbroking.smartapi.http.SmartAPIRequestHandler - headers : {"sourceID":"WEB","clientPublicIP":"103.87.165.35","macAddress":"50-2B-73-E5-D9-5A","userType":"USER","clientLocalIP":"192.168.1.102","accept":"application/json"}
+23:29:05.994 [main] INFO  com.angelbroking.smartapi.http.SmartAPIResponseHandler - ***************************
+23:29:06.354 [main] INFO  com.appdevclaymaster.downloadnsehistoricaldata.DownloadNSEHistoricalData - Fetching data for AARTIIND from 2024-02-01 to 2024-02-29
+23:29:06.455 [main] INFO  com.angelbroking.smartapi.http.SmartAPIRequestHandler - headers : {"sourceID":"WEB","clientPublicIP":"103.87.165.35","macAddress":"50-2B-73-E5-D9-5A","userType":"USER","clientLocalIP":"192.168.1.102","accept":"application/json"}
+23:29:06.602 [main] INFO  com.angelbroking.smartapi.http.SmartAPIResponseHandler - ***************************
+23:29:06.953 [main] INFO  com.appdevclaymaster.downloadnsehistoricaldata.DownloadNSEHistoricalData - Fetching data for AARTIIND from 2024-03-01 to 2024-03-31
+23:29:07.071 [main] INFO  com.angelbroking.smartapi.http.SmartAPIRequestHandler - headers : {"sourceID":"WEB","clientPublicIP":"103.87.165.35","macAddress":"50-2B-73-E5-D9-5A","userType":"USER","clientLocalIP":"192.168.1.102","accept":"application/json"}
+23:29:07.212 [main] INFO  com.angelbroking.smartapi.http.SmartAPIResponseHandler - ***************************
+23:29:07.553 [main] INFO  com.appdevclaymaster.downloadnsehistoricaldata.DownloadNSEHistoricalData - Fetching data for AARTIIND from 2024-04-01 to 2024-04-30
+23:29:07.654 [main] INFO  com.angelbroking.smartapi.http.SmartAPIRequestHandler - headers : {"sourceID":"WEB","clientPublicIP":"103.87.165.35","macAddress":"50-2B-73-E5-D9-5A","userType":"USER","clientLocalIP":"192.168.1.102","accept":"application/json"}
+23:29:07.757 [main] INFO  com.angelbroking.smartapi.http.SmartAPIResponseHandler - ***************************
+23:29:08.100 [main] INFO  com.appdevclaymaster.downloadnsehistoricaldata.DownloadNSEHistoricalData - Fetching data for AARTIIND from 2024-05-01 to 2024-05-31
+23:29:08.203 [main] INFO  com.angelbroking.smartapi.http.SmartAPIRequestHandler - headers : {"sourceID":"WEB","clientPublicIP":"103.87.165.35","macAddress":"50-2B-73-E5-D9-5A","userType":"USER","clientLocalIP":"192.168.1.102","accept":"application/json"}
+23:29:08.367 [main] INFO  com.angelbroking.smartapi.http.SmartAPIResponseHandler - ***************************
+23:29:08.709 [main] INFO  com.appdevclaymaster.downloadnsehistoricaldata.DownloadNSEHistoricalData - Fetching data for AARTIIND from 2024-06-01 to 2024-06-30
+23:29:08.809 [main] INFO  com.angelbroking.smartapi.http.SmartAPIRequestHandler - headers : {"sourceID":"WEB","clientPublicIP":"103.87.165.35","macAddress":"50-2B-73-E5-D9-5A","userType":"USER","clientLocalIP":"192.168.1.102","accept":"application/json"}
+23:29:08.917 [main] INFO  com.angelbroking.smartapi.http.SmartAPIResponseHandler - ***************************
+23:29:09.259 [main] INFO  com.appdevclaymaster.downloadnsehistoricaldata.DownloadNSEHistoricalData - Fetching data for AARTIIND from 2024-07-01 to 2024-07-31
+23:29:09.358 [main] INFO  com.angelbroking.smartapi.http.SmartAPIRequestHandler - headers : {"sourceID":"WEB","clientPublicIP":"103.87.165.35","macAddress":"50-2B-73-E5-D9-5A","userType":"USER","clientLocalIP":"192.168.1.102","accept":"application/json"}
+23:29:09.448 [main] INFO  com.angelbroking.smartapi.http.SmartAPIResponseHandler - ***************************
+23:29:09.789 [main] INFO  com.appdevclaymaster.downloadnsehistoricaldata.DownloadNSEHistoricalData - Fetching data for AARTIIND from 2024-08-01 to 2024-08-31
+23:29:09.883 [main] INFO  com.angelbroking.smartapi.http.SmartAPIRequestHandler - headers : {"sourceID":"WEB","clientPublicIP":"103.87.165.35","macAddress":"50-2B-73-E5-D9-5A","userType":"USER","clientLocalIP":"192.168.1.102","accept":"application/json"}
+23:29:19.897 [main] ERROR com.angelbroking.smartapi.http.SmartAPIRequestHandler - Error in POST request. Request URL: https://apiconnect.angelone.in/rest/secure/angelbroking/historical/v1/getCandleData, Request Headers: Content-Type: application/json
+Authorization: ??
+X-ClientLocalIP: 192.168.1.102
+X-ClientPublicIP: 103.87.165.35
+X-MACAddress: 50-2B-73-E5-D9-5A
+Accept: application/json
+X-PrivateKey: qdYCcdyW
+X-UserType: USER
+X-SourceID: WEB
+, Request Body: {"todate":"2024-08-31 15:30","exchange":"NSE","interval":"ONE_MINUTE","symboltoken":"7","fromdate":"2024-08-01 09:15"},Response : Read timed out
+23:29:19.898 [main] ERROR com.appdevclaymaster.downloadnsehistoricaldata.DownloadNSEHistoricalData - Error while fetching candle data
+23:29:19.898 [main] ERROR com.appdevclaymaster.downloadnsehistoricaldata.DownloadNSEHistoricalData - response is : null
+23:29:19.898 [main] ERROR com.appdevclaymaster.downloadnsehistoricaldata.DownloadNSEHistoricalData - Read timed out
+23:29:20.234 [main] INFO  com.appdevclaymaster.downloadnsehistoricaldata.DownloadNSEHistoricalData - Fetching data for AARTIIND from 2024-09-01 to 2024-09-30
+23:29:20.401 [main] INFO  com.angelbroking.smartapi.http.SmartAPIRequestHandler - headers : {"sourceID":"WEB","clientPublicIP":"103.87.165.35","macAddress":"50-2B-73-E5-D9-5A","userType":"USER","clientLocalIP":"192.168.1.102","accept":"application/json"}
+23:29:20.493 [main] INFO  com.angelbroking.smartapi.http.SmartAPIResponseHandler - ***************************
+23:29:20.835 [main] INFO  com.appdevclaymaster.downloadnsehistoricaldata.DownloadNSEHistoricalData - Fetching data for AARTIIND from 2024-10-01 to 2024-10-16
+23:29:20.981 [main] INFO  com.angelbroking.smartapi.http.SmartAPIRequestHandler - headers : {"sourceID":"WEB","clientPublicIP":"103.87.165.35","macAddress":"50-2B-73-E5-D9-5A","userType":"USER","clientLocalIP":"192.168.1.102","accept":"application/json"}
+23:29:21.076 [main] INFO  com.angelbroking.smartapi.http.SmartAPIResponseHandler - ***************************
+23:29:21.415 [main] INFO  com.appdevclaymaster.downloadnsehistoricaldata.DownloadNSEHistoricalData - Fetching data for ABB from 2024-01-01 to 2024-01-31
+23:29:21.511 [main] INFO  com.angelbroking.smartapi.http.SmartAPIRequestHandler - headers : {"sourceID":"WEB","clientPublicIP":"103.87.165.35","macAddress":"50-2B-73-E5-D9-5A","userType":"USER","clientLocalIP":"192.168.1.102","accept":"application/json"}
+23:29:22.679 [main] INFO  com.angelbroking.smartapi.http.SmartAPIResponseHandler - ***************************
+23:29:23.020 [main] INFO  com.appdevclaymaster.downloadnsehistoricaldata.DownloadNSEHistoricalData - Fetching data for ABB from 2024-02-01 to 2024-02-29
+23:29:23.115 [main] INFO  com.angelbroking.smartapi.http.SmartAPIRequestHandler - headers : {"sourceID":"WEB","clientPublicIP":"103.87.165.35","macAddress":"50-2B-73-E5-D9-5A","userType":"USER","clientLocalIP":"192.168.1.102","accept":"application/json"}
+23:29:23.234 [main] INFO  com.angelbroking.smartapi.http.SmartAPIResponseHandler - ***************************
+23:29:23.575 [main] INFO  com.appdevclaymaster.downloadnsehistoricaldata.DownloadNSEHistoricalData - Fetching data for ABB from 2024-03-01 to 2024-03-31
+23:29:23.674 [main] INFO  com.angelbroking.smartapi.http.SmartAPIRequestHandler - headers : {"sourceID":"WEB","clientPublicIP":"103.87.165.35","macAddress":"50-2B-73-E5-D9-5A","userType":"USER","clientLocalIP":"192.168.1.102","accept":"application/json"}
+23:29:23.771 [main] INFO  com.angelbroking.smartapi.http.SmartAPIResponseHandler - ***************************
+23:29:24.111 [main] INFO  com.appdevclaymaster.downloadnsehistoricaldata.DownloadNSEHistoricalData - Fetching data for ABB from 2024-04-01 to 2024-04-30
+23:29:24.207 [main] INFO  com.angelbroking.smartapi.http.SmartAPIRequestHandler - headers : {"sourceID":"WEB","clientPublicIP":"103.87.165.35","macAddress":"50-2B-73-E5-D9-5A","userType":"USER","clientLocalIP":"192.168.1.102","accept":"application/json"}
+23:29:24.304 [main] INFO  com.angelbroking.smartapi.http.SmartAPIResponseHandler - ***************************
+23:29:24.643 [main] INFO  com.appdevclaymaster.downloadnsehistoricaldata.DownloadNSEHistoricalData - Fetching data for ABB from 2024-05-01 to 2024-05-31
+23:29:24.741 [main] INFO  com.angelbroking.smartapi.http.SmartAPIRequestHandler - headers : {"sourceID":"WEB","clientPublicIP":"103.87.165.35","macAddress":"50-2B-73-E5-D9-5A","userType":"USER","clientLocalIP":"192.168.1.102","accept":"application/json"}
+23:29:24.840 [main] INFO  com.angelbroking.smartapi.http.SmartAPIResponseHandler - ***************************
+23:29:25.181 [main] INFO  com.appdevclaymaster.downloadnsehistoricaldata.DownloadNSEHistoricalData - Fetching data for ABB from 2024-06-01 to 2024-06-30
+23:29:25.279 [main] INFO  com.angelbroking.smartapi.http.SmartAPIRequestHandler - headers : {"sourceID":"WEB","clientPublicIP":"103.87.165.35","macAddress":"50-2B-73-E5-D9-5A","userType":"USER","clientLocalIP":"192.168.1.102","accept":"application/json"}
+23:29:25.390 [main] INFO  com.angelbroking.smartapi.http.SmartAPIResponseHandler - ***************************
+23:29:25.738 [main] INFO  com.appdevclaymaster.downloadnsehistoricaldata.DownloadNSEHistoricalData - Fetching data for ABB from 2024-07-01 to 2024-07-31
+23:29:25.834 [main] INFO  com.angelbroking.smartapi.http.SmartAPIRequestHandler - headers : {"sourceID":"WEB","clientPublicIP":"103.87.165.35","macAddress":"50-2B-73-E5-D9-5A","userType":"USER","clientLocalIP":"192.168.1.102","accept":"application/json"}
+23:29:25.936 [main] INFO  com.angelbroking.smartapi.http.SmartAPIResponseHandler - ***************************
+23:29:26.276 [main] INFO  com.appdevclaymaster.downloadnsehistoricaldata.DownloadNSEHistoricalData - Fetching data for ABB from 2024-08-01 to 2024-08-31
+23:29:26.374 [main] INFO  com.angelbroking.smartapi.http.SmartAPIRequestHandler - headers : {"sourceID":"WEB","clientPublicIP":"103.87.165.35","macAddress":"50-2B-73-E5-D9-5A","userType":"USER","clientLocalIP":"192.168.1.102","accept":"application/json"}
+23:29:26.475 [main] INFO  com.angelbroking.smartapi.http.SmartAPIResponseHandler - ***************************
+23:29:26.817 [main] INFO  com.appdevclaymaster.downloadnsehistoricaldata.DownloadNSEHistoricalData - Fetching data for ABB from 2024-09-01 to 2024-09-30
+23:29:26.914 [main] INFO  com.angelbroking.smartapi.http.SmartAPIRequestHandler - headers : {"sourceID":"WEB","clientPublicIP":"103.87.165.35","macAddress":"50-2B-73-E5-D9-5A","userType":"USER","clientLocalIP":"192.168.1.102","accept":"application/json"}
+23:29:27.005 [main] INFO  com.angelbroking.smartapi.http.SmartAPIResponseHandler - ***************************
+23:29:27.345 [main] INFO  com.appdevclaymaster.downloadnsehistoricaldata.DownloadNSEHistoricalData - Fetching data for ABB from 2024-10-01 to 2024-10-16
+23:29:27.441 [main] INFO  com.angelbroking.smartapi.http.SmartAPIRequestHandler - headers : {"sourceID":"WEB","clientPublicIP":"103.87.165.35","macAddress":"50-2B-73-E5-D9-5A","userType":"USER","clientLocalIP":"192.168.1.102","accept":"application/json"}
+23:29:27.540 [main] INFO  com.angelbroking.smartapi.http.SmartAPIResponseHandler - ***************************
+23:29:27.881 [main] INFO  com.appdevclaymaster.downloadnsehistoricaldata.DownloadNSEHistoricalData - Fetching data for ABBOTINDIA from 2024-01-01 to 2024-01-31
+23:29:27.975 [main] INFO  com.angelbroking.smartapi.http.SmartAPIRequestHandler - headers : {"sourceID":"WEB","clientPublicIP":"103.87.165.35","macAddress":"50-2B-73-E5-D9-5A","userType":"USER","clientLocalIP":"192.168.1.102","accept":"application/json"}
+23:29:28.069 [main] INFO  com.angelbroking.smartapi.http.SmartAPIResponseHandler - ***************************
+23:29:28.408 [main] INFO  com.appdevclaymaster.downloadnsehistoricaldata.DownloadNSEHistoricalData - Fetching data for ABBOTINDIA from 2024-02-01 to 2024-02-29
+23:29:28.506 [main] INFO  com.angelbroking.smartapi.http.SmartAPIRequestHandler - headers : {"sourceID":"WEB","clientPublicIP":"103.87.165.35","macAddress":"50-2B-73-E5-D9-5A","userType":"USER","clientLocalIP":"192.168.1.102","accept":"application/json"}
+23:29:28.589 [main] INFO  com.angelbroking.smartapi.http.SmartAPIResponseHandler - ***************************
+23:29:28.936 [main] INFO  com.appdevclaymaster.downloadnsehistoricaldata.DownloadNSEHistoricalData - Fetching data for ABBOTINDIA from 2024-03-01 to 2024-03-31
+23:29:29.030 [main] INFO  com.angelbroking.smartapi.http.SmartAPIRequestHandler - headers : {"sourceID":"WEB","clientPublicIP":"103.87.165.35","macAddress":"50-2B-73-E5-D9-5A","userType":"USER","clientLocalIP":"192.168.1.102","accept":"application/json"}
+23:29:29.119 [main] INFO  com.angelbroking.smartapi.http.SmartAPIResponseHandler - ***************************
+23:29:29.458 [main] INFO  com.appdevclaymaster.downloadnsehistoricaldata.DownloadNSEHistoricalData - Fetching data for ABBOTINDIA from 2024-04-01 to 2024-04-30
+23:29:29.556 [main] INFO  com.angelbroking.smartapi.http.SmartAPIRequestHandler - headers : {"sourceID":"WEB","clientPublicIP":"103.87.165.35","macAddress":"50-2B-73-E5-D9-5A","userType":"USER","clientLocalIP":"192.168.1.102","accept":"application/json"}
+23:29:29.651 [main] INFO  com.angelbroking.smartapi.http.SmartAPIResponseHandler - ***************************
+23:29:29.993 [main] INFO  com.appdevclaymaster.downloadnsehistoricaldata.DownloadNSEHistoricalData - Fetching data for ABBOTINDIA from 2024-05-01 to 2024-05-31
+23:29:30.089 [main] INFO  com.angelbroking.smartapi.http.SmartAPIRequestHandler - headers : {"sourceID":"WEB","clientPublicIP":"103.87.165.35","macAddress":"50-2B-73-E5-D9-5A","userType":"USER","clientLocalIP":"192.168.1.102","accept":"application/json"}
+23:29:36.207 [main] INFO  com.angelbroking.smartapi.http.SmartAPIResponseHandler - ***************************
+23:29:36.546 [main] INFO  com.appdevclaymaster.downloadnsehistoricaldata.DownloadNSEHistoricalData - Fetching data for ABBOTINDIA from 2024-06-01 to 2024-06-30
+23:29:36.730 [main] INFO  com.angelbroking.smartapi.http.SmartAPIRequestHandler - headers : {"sourceID":"WEB","clientPublicIP":"103.87.165.35","macAddress":"50-2B-73-E5-D9-5A","userType":"USER","clientLocalIP":"192.168.1.102","accept":"application/json"}
+23:29:36.823 [main] INFO  com.angelbroking.smartapi.http.SmartAPIResponseHandler - ***************************
+23:29:37.161 [main] INFO  com.appdevclaymaster.downloadnsehistoricaldata.DownloadNSEHistoricalData - Fetching data for ABBOTINDIA from 2024-07-01 to 2024-07-31
+23:29:37.261 [main] INFO  com.angelbroking.smartapi.http.SmartAPIRequestHandler - headers : {"sourceID":"WEB","clientPublicIP":"103.87.165.35","macAddress":"50-2B-73-E5-D9-5A","userType":"USER","clientLocalIP":"192.168.1.102","accept":"application/json"}
+23:29:37.355 [main] INFO  com.angelbroking.smartapi.http.SmartAPIResponseHandler - ***************************
+23:29:37.694 [main] INFO  com.appdevclaymaster.downloadnsehistoricaldata.DownloadNSEHistoricalData - Fetching data for ABBOTINDIA from 2024-08-01 to 2024-08-31
+23:29:37.794 [main] INFO  com.angelbroking.smartapi.http.SmartAPIRequestHandler - headers : {"sourceID":"WEB","clientPublicIP":"103.87.165.35","macAddress":"50-2B-73-E5-D9-5A","userType":"USER","clientLocalIP":"192.168.1.102","accept":"application/json"}
+23:29:37.949 [main] INFO  com.angelbroking.smartapi.http.SmartAPIResponseHandler - ***************************
+23:29:38.289 [main] INFO  com.appdevclaymaster.downloadnsehistoricaldata.DownloadNSEHistoricalData - Fetching data for ABBOTINDIA from 2024-09-01 to 2024-09-30
+23:29:38.396 [main] INFO  com.angelbroking.smartapi.http.SmartAPIRequestHandler - headers : {"sourceID":"WEB","clientPublicIP":"103.87.165.35","macAddress":"50-2B-73-E5-D9-5A","userType":"USER","clientLocalIP":"192.168.1.102","accept":"application/json"}
+23:29:38.527 [main] INFO  com.angelbroking.smartapi.http.SmartAPIResponseHandler - ***************************
+23:29:38.872 [main] INFO  com.appdevclaymaster.downloadnsehistoricaldata.DownloadNSEHistoricalData - Fetching data for ABBOTINDIA from 2024-10-01 to 2024-10-16
+23:29:38.970 [main] INFO  com.angelbroking.smartapi.http.SmartAPIRequestHandler - headers : {"sourceID":"WEB","clientPublicIP":"103.87.165.35","macAddress":"50-2B-73-E5-D9-5A","userType":"USER","clientLocalIP":"192.168.1.102","accept":"application/json"}
+23:29:39.054 [main] INFO  com.angelbroking.smartapi.http.SmartAPIResponseHandler - ***************************
+23:29:39.392 [main] INFO  com.appdevclaymaster.downloadnsehistoricaldata.DownloadNSEHistoricalData - Fetching data for ABCAPITAL from 2024-01-01 to 2024-01-31
+23:29:39.490 [main] INFO  com.angelbroking.smartapi.http.SmartAPIRequestHandler - headers : {"sourceID":"WEB","clientPublicIP":"103.87.165.35","macAddress":"50-2B-73-E5-D9-5A","userType":"USER","clientLocalIP":"192.168.1.102","accept":"application/json"}
+23:29:39.572 [main] INFO  com.angelbroking.smartapi.http.SmartAPIResponseHandler - ***************************
+23:29:39.912 [main] INFO  com.appdevclaymaster.downloadnsehistoricaldata.DownloadNSEHistoricalData - Fetching data for ABCAPITAL from 2024-02-01 to 2024-02-29
+23:29:40.057 [main] INFO  com.angelbroking.smartapi.http.SmartAPIRequestHandler - headers : {"sourceID":"WEB","clientPublicIP":"103.87.165.35","macAddress":"50-2B-73-E5-D9-5A","userType":"USER","clientLocalIP":"192.168.1.102","accept":"application/json"}
+23:29:40.141 [main] INFO  com.angelbroking.smartapi.http.SmartAPIResponseHandler - ***************************
+23:29:40.481 [main] INFO  com.appdevclaymaster.downloadnsehistoricaldata.DownloadNSEHistoricalData - Fetching data for ABCAPITAL from 2024-03-01 to 2024-03-31
+23:29:40.578 [main] INFO  com.angelbroking.smartapi.http.SmartAPIRequestHandler - headers : {"sourceID":"WEB","clientPublicIP":"103.87.165.35","macAddress":"50-2B-73-E5-D9-5A","userType":"USER","clientLocalIP":"192.168.1.102","accept":"application/json"}
+23:29:41.690 [main] INFO  com.angelbroking.smartapi.http.SmartAPIResponseHandler - ***************************
+23:29:42.028 [main] INFO  com.appdevclaymaster.downloadnsehistoricaldata.DownloadNSEHistoricalData - Fetching data for ABCAPITAL from 2024-04-01 to 2024-04-30
+23:29:42.124 [main] INFO  com.angelbroking.smartapi.http.SmartAPIRequestHandler - headers : {"sourceID":"WEB","clientPublicIP":"103.87.165.35","macAddress":"50-2B-73-E5-D9-5A","userType":"USER","clientLocalIP":"192.168.1.102","accept":"application/json"}
+23:29:42.213 [main] INFO  com.angelbroking.smartapi.http.SmartAPIResponseHandler - ***************************
+23:29:42.553 [main] INFO  com.appdevclaymaster.downloadnsehistoricaldata.DownloadNSEHistoricalData - Fetching data for ABCAPITAL from 2024-05-01 to 2024-05-31
+23:29:42.651 [main] INFO  com.angelbroking.smartapi.http.SmartAPIRequestHandler - headers : {"sourceID":"WEB","clientPublicIP":"103.87.165.35","macAddress":"50-2B-73-E5-D9-5A","userType":"USER","clientLocalIP":"192.168.1.102","accept":"application/json"}
+23:29:42.752 [main] INFO  com.angelbroking.smartapi.http.SmartAPIResponseHandler - ***************************
+23:29:43.091 [main] INFO  com.appdevclaymaster.downloadnsehistoricaldata.DownloadNSEHistoricalData - Fetching data for ABCAPITAL from 2024-06-01 to 2024-06-30
+23:29:43.186 [main] INFO  com.angelbroking.smartapi.http.SmartAPIRequestHandler - headers : {"sourceID":"WEB","clientPublicIP":"103.87.165.35","macAddress":"50-2B-73-E5-D9-5A","userType":"USER","clientLocalIP":"192.168.1.102","accept":"application/json"}
+23:29:43.270 [main] INFO  com.angelbroking.smartapi.http.SmartAPIResponseHandler - ***************************
+23:29:43.609 [main] INFO  com.appdevclaymaster.downloadnsehistoricaldata.DownloadNSEHistoricalData - Fetching data for ABCAPITAL from 2024-07-01 to 2024-07-31
+23:29:43.717 [main] INFO  com.angelbroking.smartapi.http.SmartAPIRequestHandler - headers : {"sourceID":"WEB","clientPublicIP":"103.87.165.35","macAddress":"50-2B-73-E5-D9-5A","userType":"USER","clientLocalIP":"192.168.1.102","accept":"application/json"}
+23:29:43.804 [main] INFO  com.angelbroking.smartapi.http.SmartAPIResponseHandler - ***************************
+23:29:44.143 [main] INFO  com.appdevclaymaster.downloadnsehistoricaldata.DownloadNSEHistoricalData - Fetching data for ABCAPITAL from 2024-08-01 to 2024-08-31
+23:29:44.247 [main] INFO  com.angelbroking.smartapi.http.SmartAPIRequestHandler - headers : {"sourceID":"WEB","clientPublicIP":"103.87.165.35","macAddress":"50-2B-73-E5-D9-5A","userType":"USER","clientLocalIP":"192.168.1.102","accept":"application/json"}
+23:29:44.330 [main] INFO  com.angelbroking.smartapi.http.SmartAPIResponseHandler - ***************************
+23:29:44.669 [main] INFO  com.appdevclaymaster.downloadnsehistoricaldata.DownloadNSEHistoricalData - Fetching data for ABCAPITAL from 2024-09-01 to 2024-09-30
+23:29:44.781 [main] INFO  com.angelbroking.smartapi.http.SmartAPIRequestHandler - headers : {"sourceID":"WEB","clientPublicIP":"103.87.165.35","macAddress":"50-2B-73-E5-D9-5A","userType":"USER","clientLocalIP":"192.168.1.102","accept":"application/json"}
+23:29:44.877 [main] INFO  com.angelbroking.smartapi.http.SmartAPIResponseHandler - ***************************
+23:29:45.215 [main] INFO  com.appdevclaymaster.downloadnsehistoricaldata.DownloadNSEHistoricalData - Fetching data for ABCAPITAL from 2024-10-01 to 2024-10-16
+23:29:45.319 [main] INFO  com.angelbroking.smartapi.http.SmartAPIRequestHandler - headers : {"sourceID":"WEB","clientPublicIP":"103.87.165.35","macAddress":"50-2B-73-E5-D9-5A","userType":"USER","clientLocalIP":"192.168.1.102","accept":"application/json"}
+23:29:45.410 [main] INFO  com.angelbroking.smartapi.http.SmartAPIResponseHandler - ***************************
+23:29:45.749 [main] INFO  com.appdevclaymaster.downloadnsehistoricaldata.DownloadNSEHistoricalData - Fetching data for ABFRL from 2024-01-01 to 2024-01-31
+23:29:45.850 [main] INFO  com.angelbroking.smartapi.http.SmartAPIRequestHandler - headers : {"sourceID":"WEB","clientPublicIP":"103.87.165.35","macAddress":"50-2B-73-E5-D9-5A","userType":"USER","clientLocalIP":"192.168.1.102","accept":"application/json"}
+23:29:45.940 [main] INFO  com.angelbroking.smartapi.http.SmartAPIResponseHandler - ***************************
+23:29:46.280 [main] INFO  com.appdevclaymaster.downloadnsehistoricaldata.DownloadNSEHistoricalData - Fetching data for ABFRL from 2024-02-01 to 2024-02-29
+23:29:46.378 [main] INFO  com.angelbroking.smartapi.http.SmartAPIRequestHandler - headers : {"sourceID":"WEB","clientPublicIP":"103.87.165.35","macAddress":"50-2B-73-E5-D9-5A","userType":"USER","clientLocalIP":"192.168.1.102","accept":"application/json"}
+23:29:46.478 [main] INFO  com.angelbroking.smartapi.http.SmartAPIResponseHandler - ***************************
+23:29:46.821 [main] INFO  com.appdevclaymaster.downloadnsehistoricaldata.DownloadNSEHistoricalData - Fetching data for ABFRL from 2024-03-01 to 2024-03-31
+23:29:46.917 [main] INFO  com.angelbroking.smartapi.http.SmartAPIRequestHandler - headers : {"sourceID":"WEB","clientPublicIP":"103.87.165.35","macAddress":"50-2B-73-E5-D9-5A","userType":"USER","clientLocalIP":"192.168.1.102","accept":"application/json"}
+23:29:47.013 [main] INFO  com.angelbroking.smartapi.http.SmartAPIResponseHandler - ***************************
+23:29:47.351 [main] INFO  com.appdevclaymaster.downloadnsehistoricaldata.DownloadNSEHistoricalData - Fetching data for ABFRL from 2024-04-01 to 2024-04-30
+23:29:47.444 [main] INFO  com.angelbroking.smartapi.http.SmartAPIRequestHandler - headers : {"sourceID":"WEB","clientPublicIP":"103.87.165.35","macAddress":"50-2B-73-E5-D9-5A","userType":"USER","clientLocalIP":"192.168.1.102","accept":"application/json"}
+23:29:47.535 [main] INFO  com.angelbroking.smartapi.http.SmartAPIResponseHandler - ***************************
+23:29:47.875 [main] INFO  com.appdevclaymaster.downloadnsehistoricaldata.DownloadNSEHistoricalData - Fetching data for ABFRL from 2024-05-01 to 2024-05-31
+23:29:47.971 [main] INFO  com.angelbroking.smartapi.http.SmartAPIRequestHandler - headers : {"sourceID":"WEB","clientPublicIP":"103.87.165.35","macAddress":"50-2B-73-E5-D9-5A","userType":"USER","clientLocalIP":"192.168.1.102","accept":"application/json"}
+23:29:48.065 [main] INFO  com.angelbroking.smartapi.http.SmartAPIResponseHandler - ***************************
+23:29:48.405 [main] INFO  com.appdevclaymaster.downloadnsehistoricaldata.DownloadNSEHistoricalData - Fetching data for ABFRL from 2024-06-01 to 2024-06-30
+23:29:48.507 [main] INFO  com.angelbroking.smartapi.http.SmartAPIRequestHandler - headers : {"sourceID":"WEB","clientPublicIP":"103.87.165.35","macAddress":"50-2B-73-E5-D9-5A","userType":"USER","clientLocalIP":"192.168.1.102","accept":"application/json"}
+23:29:48.617 [main] INFO  com.angelbroking.smartapi.http.SmartAPIResponseHandler - ***************************
+23:29:48.958 [main] INFO  com.appdevclaymaster.downloadnsehistoricaldata.DownloadNSEHistoricalData - Fetching data for ABFRL from 2024-07-01 to 2024-07-31
+23:29:49.054 [main] INFO  com.angelbroking.smartapi.http.SmartAPIRequestHandler - headers : {"sourceID":"WEB","clientPublicIP":"103.87.165.35","macAddress":"50-2B-73-E5-D9-5A","userType":"USER","clientLocalIP":"192.168.1.102","accept":"application/json"}
+23:29:49.146 [main] INFO  com.angelbroking.smartapi.http.SmartAPIResponseHandler - ***************************
+23:29:49.485 [main] INFO  com.appdevclaymaster.downloadnsehistoricaldata.DownloadNSEHistoricalData - Fetching data for ABFRL from 2024-08-01 to 2024-08-31
+23:29:49.583 [main] INFO  com.angelbroking.smartapi.http.SmartAPIRequestHandler - headers : {"sourceID":"WEB","clientPublicIP":"103.87.165.35","macAddress":"50-2B-73-E5-D9-5A","userType":"USER","clientLocalIP":"192.168.1.102","accept":"application/json"}
+23:29:49.678 [main] INFO  com.angelbroking.smartapi.http.SmartAPIResponseHandler - ***************************
+23:29:50.016 [main] INFO  com.appdevclaymaster.downloadnsehistoricaldata.DownloadNSEHistoricalData - Fetching data for ABFRL from 2024-09-01 to 2024-09-30
+23:29:50.117 [main] INFO  com.angelbroking.smartapi.http.SmartAPIRequestHandler - headers : {"sourceID":"WEB","clientPublicIP":"103.87.165.35","macAddress":"50-2B-73-E5-D9-5A","userType":"USER","clientLocalIP":"192.168.1.102","accept":"application/json"}
+23:29:50.211 [main] INFO  com.angelbroking.smartapi.http.SmartAPIResponseHandler - ***************************
+23:29:50.550 [main] INFO  com.appdevclaymaster.downloadnsehistoricaldata.DownloadNSEHistoricalData - Fetching data for ABFRL from 2024-10-01 to 2024-10-16
+23:29:50.661 [main] INFO  com.angelbroking.smartapi.http.SmartAPIRequestHandler - headers : {"sourceID":"WEB","clientPublicIP":"103.87.165.35","macAddress":"50-2B-73-E5-D9-5A","userType":"USER","clientLocalIP":"192.168.1.102","accept":"application/json"}
+23:29:50.762 [main] INFO  com.angelbroking.smartapi.http.SmartAPIResponseHandler - ***************************
+23:29:51.103 [main] INFO  com.appdevclaymaster.downloadnsehistoricaldata.DownloadNSEHistoricalData - Fetching data for ACC from 2024-01-01 to 2024-01-31
+23:29:51.199 [main] INFO  com.angelbroking.smartapi.http.SmartAPIRequestHandler - headers : {"sourceID":"WEB","clientPublicIP":"103.87.165.35","macAddress":"50-2B-73-E5-D9-5A","userType":"USER","clientLocalIP":"192.168.1.102","accept":"application/json"}
+23:29:52.337 [main] INFO  com.angelbroking.smartapi.http.SmartAPIResponseHandler - ***************************
+23:29:52.677 [main] INFO  com.appdevclaymaster.downloadnsehistoricaldata.DownloadNSEHistoricalData - Fetching data for ACC from 2024-02-01 to 2024-02-29
+23:29:52.774 [main] INFO  com.angelbroking.smartapi.http.SmartAPIRequestHandler - headers : {"sourceID":"WEB","clientPublicIP":"103.87.165.35","macAddress":"50-2B-73-E5-D9-5A","userType":"USER","clientLocalIP":"192.168.1.102","accept":"application/json"}
+23:29:53.876 [main] INFO  com.angelbroking.smartapi.http.SmartAPIResponseHandler - ***************************
+23:29:54.215 [main] INFO  com.appdevclaymaster.downloadnsehistoricaldata.DownloadNSEHistoricalData - Fetching data for ACC from 2024-03-01 to 2024-03-31
+23:29:54.310 [main] INFO  com.angelbroking.smartapi.http.SmartAPIRequestHandler - headers : {"sourceID":"WEB","clientPublicIP":"103.87.165.35","macAddress":"50-2B-73-E5-D9-5A","userType":"USER","clientLocalIP":"192.168.1.102","accept":"application/json"}
+23:29:54.419 [main] INFO  com.angelbroking.smartapi.http.SmartAPIResponseHandler - ***************************
+23:29:54.759 [main] INFO  com.appdevclaymaster.downloadnsehistoricaldata.DownloadNSEHistoricalData - Fetching data for ACC from 2024-04-01 to 2024-04-30
+23:29:54.857 [main] INFO  com.angelbroking.smartapi.http.SmartAPIRequestHandler - headers : {"sourceID":"WEB","clientPublicIP":"103.87.165.35","macAddress":"50-2B-73-E5-D9-5A","userType":"USER","clientLocalIP":"192.168.1.102","accept":"application/json"}
+23:29:54.947 [main] INFO  com.angelbroking.smartapi.http.SmartAPIResponseHandler - ***************************
+23:29:55.286 [main] INFO  com.appdevclaymaster.downloadnsehistoricaldata.DownloadNSEHistoricalData - Fetching data for ACC from 2024-05-01 to 2024-05-31
+23:29:55.382 [main] INFO  com.angelbroking.smartapi.http.SmartAPIRequestHandler - headers : {"sourceID":"WEB","clientPublicIP":"103.87.165.35","macAddress":"50-2B-73-E5-D9-5A","userType":"USER","clientLocalIP":"192.168.1.102","accept":"application/json"}
+23:29:55.474 [main] INFO  com.angelbroking.smartapi.http.SmartAPIResponseHandler - ***************************
+23:29:55.818 [main] INFO  com.appdevclaymaster.downloadnsehistoricaldata.DownloadNSEHistoricalData - Fetching data for ACC from 2024-06-01 to 2024-06-30
+23:29:55.917 [main] INFO  com.angelbroking.smartapi.http.SmartAPIRequestHandler - headers : {"sourceID":"WEB","clientPublicIP":"103.87.165.35","macAddress":"50-2B-73-E5-D9-5A","userType":"USER","clientLocalIP":"192.168.1.102","accept":"application/json"}
+23:29:56.059 [main] INFO  com.angelbroking.smartapi.http.SmartAPIResponseHandler - ***************************
+23:29:56.397 [main] INFO  com.appdevclaymaster.downloadnsehistoricaldata.DownloadNSEHistoricalData - Fetching data for ACC from 2024-07-01 to 2024-07-31
+23:29:56.501 [main] INFO  com.angelbroking.smartapi.http.SmartAPIRequestHandler - headers : {"sourceID":"WEB","clientPublicIP":"103.87.165.35","macAddress":"50-2B-73-E5-D9-5A","userType":"USER","clientLocalIP":"192.168.1.102","accept":"application/json"}
+23:29:56.606 [main] INFO  com.angelbroking.smartapi.http.SmartAPIResponseHandler - ***************************
+23:29:56.944 [main] INFO  com.appdevclaymaster.downloadnsehistoricaldata.DownloadNSEHistoricalData - Fetching data for ACC from 2024-08-01 to 2024-08-31
+23:29:57.041 [main] INFO  com.angelbroking.smartapi.http.SmartAPIRequestHandler - headers : {"sourceID":"WEB","clientPublicIP":"103.87.165.35","macAddress":"50-2B-73-E5-D9-5A","userType":"USER","clientLocalIP":"192.168.1.102","accept":"application/json"}
+23:30:00.210 [main] INFO  com.angelbroking.smartapi.http.SmartAPIResponseHandler - ***************************
+23:30:00.549 [main] INFO  com.appdevclaymaster.downloadnsehistoricaldata.DownloadNSEHistoricalData - Fetching data for ACC from 2024-09-01 to 2024-09-30
+23:30:00.648 [main] INFO  com.angelbroking.smartapi.http.SmartAPIRequestHandler - headers : {"sourceID":"WEB","clientPublicIP":"103.87.165.35","macAddress":"50-2B-73-E5-D9-5A","userType":"USER","clientLocalIP":"192.168.1.102","accept":"application/json"}
+23:30:00.740 [main] INFO  com.angelbroking.smartapi.http.SmartAPIResponseHandler - ***************************
+23:30:01.080 [main] INFO  com.appdevclaymaster.downloadnsehistoricaldata.DownloadNSEHistoricalData - Fetching data for ACC from 2024-10-01 to 2024-10-16
+23:30:01.176 [main] INFO  com.angelbroking.smartapi.http.SmartAPIRequestHandler - headers : {"sourceID":"WEB","clientPublicIP":"103.87.165.35","macAddress":"50-2B-73-E5-D9-5A","userType":"USER","clientLocalIP":"192.168.1.102","accept":"application/json"}
+23:30:01.257 [main] INFO  com.angelbroking.smartapi.http.SmartAPIResponseHandler - ***************************
+23:30:01.596 [main] INFO  com.appdevclaymaster.downloadnsehistoricaldata.DownloadNSEHistoricalData - Fetching data for ADANIENT from 2024-01-01 to 2024-01-31
+23:30:01.695 [main] INFO  com.angelbroking.smartapi.http.SmartAPIRequestHandler - headers : {"sourceID":"WEB","clientPublicIP":"103.87.165.35","macAddress":"50-2B-73-E5-D9-5A","userType":"USER","clientLocalIP":"192.168.1.102","accept":"application/json"}
+23:30:01.799 [main] INFO  com.angelbroking.smartapi.http.SmartAPIResponseHandler - ***************************
+23:30:02.139 [main] INFO  com.appdevclaymaster.downloadnsehistoricaldata.DownloadNSEHistoricalData - Fetching data for ADANIENT from 2024-02-01 to 2024-02-29
+23:30:02.236 [main] INFO  com.angelbroking.smartapi.http.SmartAPIRequestHandler - headers : {"sourceID":"WEB","clientPublicIP":"103.87.165.35","macAddress":"50-2B-73-E5-D9-5A","userType":"USER","clientLocalIP":"192.168.1.102","accept":"application/json"}
+23:30:08.348 [main] INFO  com.angelbroking.smartapi.http.SmartAPIResponseHandler - ***************************
+23:30:08.687 [main] INFO  com.appdevclaymaster.downloadnsehistoricaldata.DownloadNSEHistoricalData - Fetching data for ADANIENT from 2024-03-01 to 2024-03-31
+23:30:08.865 [main] INFO  com.angelbroking.smartapi.http.SmartAPIRequestHandler - headers : {"sourceID":"WEB","clientPublicIP":"103.87.165.35","macAddress":"50-2B-73-E5-D9-5A","userType":"USER","clientLocalIP":"192.168.1.102","accept":"application/json"}
+23:30:08.982 [main] INFO  com.angelbroking.smartapi.http.SmartAPIResponseHandler - ***************************
+23:30:09.322 [main] INFO  com.appdevclaymaster.downloadnsehistoricaldata.DownloadNSEHistoricalData - Fetching data for ADANIENT from 2024-04-01 to 2024-04-30
+23:30:09.443 [main] INFO  com.angelbroking.smartapi.http.SmartAPIRequestHandler - headers : {"sourceID":"WEB","clientPublicIP":"103.87.165.35","macAddress":"50-2B-73-E5-D9-5A","userType":"USER","clientLocalIP":"192.168.1.102","accept":"application/json"}
+23:30:09.532 [main] INFO  com.angelbroking.smartapi.http.SmartAPIResponseHandler - ***************************
+23:30:09.872 [main] INFO  com.appdevclaymaster.downloadnsehistoricaldata.DownloadNSEHistoricalData - Fetching data for ADANIENT from 2024-05-01 to 2024-05-31
+23:30:09.971 [main] INFO  com.angelbroking.smartapi.http.SmartAPIRequestHandler - headers : {"sourceID":"WEB","clientPublicIP":"103.87.165.35","macAddress":"50-2B-73-E5-D9-5A","userType":"USER","clientLocalIP":"192.168.1.102","accept":"application/json"}
+23:30:10.062 [main] INFO  com.angelbroking.smartapi.http.SmartAPIResponseHandler - ***************************
+23:30:10.402 [main] INFO  com.appdevclaymaster.downloadnsehistoricaldata.DownloadNSEHistoricalData - Fetching data for ADANIENT from 2024-06-01 to 2024-06-30
+23:30:10.492 [main] INFO  com.angelbroking.smartapi.http.SmartAPIRequestHandler - headers : {"sourceID":"WEB","clientPublicIP":"103.87.165.35","macAddress":"50-2B-73-E5-D9-5A","userType":"USER","clientLocalIP":"192.168.1.102","accept":"application/json"}
+23:30:10.578 [main] INFO  com.angelbroking.smartapi.http.SmartAPIResponseHandler - ***************************
+23:30:10.917 [main] INFO  com.appdevclaymaster.downloadnsehistoricaldata.DownloadNSEHistoricalData - Fetching data for ADANIENT from 2024-07-01 to 2024-07-31
+23:30:11.015 [main] INFO  com.angelbroking.smartapi.http.SmartAPIRequestHandler - headers : {"sourceID":"WEB","clientPublicIP":"103.87.165.35","macAddress":"50-2B-73-E5-D9-5A","userType":"USER","clientLocalIP":"192.168.1.102","accept":"application/json"}
+23:30:11.122 [main] INFO  com.angelbroking.smartapi.http.SmartAPIResponseHandler - ***************************
+23:30:11.462 [main] INFO  com.appdevclaymaster.downloadnsehistoricaldata.DownloadNSEHistoricalData - Fetching data for ADANIENT from 2024-08-01 to 2024-08-31
+23:30:11.631 [main] INFO  com.angelbroking.smartapi.http.SmartAPIRequestHandler - headers : {"sourceID":"WEB","clientPublicIP":"103.87.165.35","macAddress":"50-2B-73-E5-D9-5A","userType":"USER","clientLocalIP":"192.168.1.102","accept":"application/json"}
+23:30:12.751 [main] INFO  com.angelbroking.smartapi.http.SmartAPIResponseHandler - ***************************
+23:30:13.090 [main] INFO  com.appdevclaymaster.downloadnsehistoricaldata.DownloadNSEHistoricalData - Fetching data for ADANIENT from 2024-09-01 to 2024-09-30
+23:30:13.183 [main] INFO  com.angelbroking.smartapi.http.SmartAPIRequestHandler - headers : {"sourceID":"WEB","clientPublicIP":"103.87.165.35","macAddress":"50-2B-73-E5-D9-5A","userType":"USER","clientLocalIP":"192.168.1.102","accept":"application/json"}
+23:30:13.279 [main] INFO  com.angelbroking.smartapi.http.SmartAPIResponseHandler - ***************************
+23:30:13.619 [main] INFO  com.appdevclaymaster.downloadnsehistoricaldata.DownloadNSEHistoricalData - Fetching data for ADANIENT from 2024-10-01 to 2024-10-16
+23:30:13.714 [main] INFO  com.angelbroking.smartapi.http.SmartAPIRequestHandler - headers : {"sourceID":"WEB","clientPublicIP":"103.87.165.35","macAddress":"50-2B-73-E5-D9-5A","userType":"USER","clientLocalIP":"192.168.1.102","accept":"application/json"}
+23:30:17.040 [main] INFO  com.angelbroking.smartapi.http.SmartAPIResponseHandler - ***************************
+23:30:17.380 [main] INFO  com.appdevclaymaster.downloadnsehistoricaldata.DownloadNSEHistoricalData - Fetching data for ADANIPORTS from 2024-01-01 to 2024-01-31
+23:30:17.473 [main] INFO  com.angelbroking.smartapi.http.SmartAPIRequestHandler - headers : {"sourceID":"WEB","clientPublicIP":"103.87.165.35","macAddress":"50-2B-73-E5-D9-5A","userType":"USER","clientLocalIP":"192.168.1.102","accept":"application/json"}
+23:30:17.592 [main] INFO  com.angelbroking.smartapi.http.SmartAPIResponseHandler - ***************************
+23:30:17.932 [main] INFO  com.appdevclaymaster.downloadnsehistoricaldata.DownloadNSEHistoricalData - Fetching data for ADANIPORTS from 2024-02-01 to 2024-02-29
+23:30:18.028 [main] INFO  com.angelbroking.smartapi.http.SmartAPIRequestHandler - headers : {"sourceID":"WEB","clientPublicIP":"103.87.165.35","macAddress":"50-2B-73-E5-D9-5A","userType":"USER","clientLocalIP":"192.168.1.102","accept":"application/json"}
+23:30:18.131 [main] INFO  com.angelbroking.smartapi.http.SmartAPIResponseHandler - ***************************
+23:30:18.471 [main] INFO  com.appdevclaymaster.downloadnsehistoricaldata.DownloadNSEHistoricalData - Fetching data for ADANIPORTS from 2024-03-01 to 2024-03-31
+23:30:18.565 [main] INFO  com.angelbroking.smartapi.http.SmartAPIRequestHandler - headers : {"sourceID":"WEB","clientPublicIP":"103.87.165.35","macAddress":"50-2B-73-E5-D9-5A","userType":"USER","clientLocalIP":"192.168.1.102","accept":"application/json"}
+23:30:19.685 [main] INFO  com.angelbroking.smartapi.http.SmartAPIResponseHandler - ***************************
+23:30:20.024 [main] INFO  com.appdevclaymaster.downloadnsehistoricaldata.DownloadNSEHistoricalData - Fetching data for ADANIPORTS from 2024-04-01 to 2024-04-30
+23:30:20.126 [main] INFO  com.angelbroking.smartapi.http.SmartAPIRequestHandler - headers : {"sourceID":"WEB","clientPublicIP":"103.87.165.35","macAddress":"50-2B-73-E5-D9-5A","userType":"USER","clientLocalIP":"192.168.1.102","accept":"application/json"}
+23:30:20.210 [main] INFO  com.angelbroking.smartapi.http.SmartAPIResponseHandler - ***************************
+23:30:20.549 [main] INFO  com.appdevclaymaster.downloadnsehistoricaldata.DownloadNSEHistoricalData - Fetching data for ADANIPORTS from 2024-05-01 to 2024-05-31
+23:30:20.641 [main] INFO  com.angelbroking.smartapi.http.SmartAPIRequestHandler - headers : {"sourceID":"WEB","clientPublicIP":"103.87.165.35","macAddress":"50-2B-73-E5-D9-5A","userType":"USER","clientLocalIP":"192.168.1.102","accept":"application/json"}
+23:30:20.738 [main] INFO  com.angelbroking.smartapi.http.SmartAPIResponseHandler - ***************************
+23:30:21.082 [main] INFO  com.appdevclaymaster.downloadnsehistoricaldata.DownloadNSEHistoricalData - Fetching data for ADANIPORTS from 2024-06-01 to 2024-06-30
+23:30:21.172 [main] INFO  com.angelbroking.smartapi.http.SmartAPIRequestHandler - headers : {"sourceID":"WEB","clientPublicIP":"103.87.165.35","macAddress":"50-2B-73-E5-D9-5A","userType":"USER","clientLocalIP":"192.168.1.102","accept":"application/json"}
+23:30:21.255 [main] INFO  com.angelbroking.smartapi.http.SmartAPIResponseHandler - ***************************
+23:30:21.593 [main] INFO  com.appdevclaymaster.downloadnsehistoricaldata.DownloadNSEHistoricalData - Fetching data for ADANIPORTS from 2024-07-01 to 2024-07-31
+23:30:21.689 [main] INFO  com.angelbroking.smartapi.http.SmartAPIRequestHandler - headers : {"sourceID":"WEB","clientPublicIP":"103.87.165.35","macAddress":"50-2B-73-E5-D9-5A","userType":"USER","clientLocalIP":"192.168.1.102","accept":"application/json"}
+23:30:21.780 [main] INFO  com.angelbroking.smartapi.http.SmartAPIResponseHandler - ***************************
+23:30:22.119 [main] INFO  com.appdevclaymaster.downloadnsehistoricaldata.DownloadNSEHistoricalData - Fetching data for ADANIPORTS from 2024-08-01 to 2024-08-31
+23:30:22.212 [main] INFO  com.angelbroking.smartapi.http.SmartAPIRequestHandler - headers : {"sourceID":"WEB","clientPublicIP":"103.87.165.35","macAddress":"50-2B-73-E5-D9-5A","userType":"USER","clientLocalIP":"192.168.1.102","accept":"application/json"}
+23:30:28.331 [main] INFO  com.angelbroking.smartapi.http.SmartAPIResponseHandler - ***************************
+23:30:28.671 [main] INFO  com.appdevclaymaster.downloadnsehistoricaldata.DownloadNSEHistoricalData - Fetching data for ADANIPORTS from 2024-09-01 to 2024-09-30
+23:30:28.860 [main] INFO  com.angelbroking.smartapi.http.SmartAPIRequestHandler - headers : {"sourceID":"WEB","clientPublicIP":"103.87.165.35","macAddress":"50-2B-73-E5-D9-5A","userType":"USER","clientLocalIP":"192.168.1.102","accept":"application/json"}
+23:30:28.957 [main] INFO  com.angelbroking.smartapi.http.SmartAPIResponseHandler - ***************************
+23:30:29.297 [main] INFO  com.appdevclaymaster.downloadnsehistoricaldata.DownloadNSEHistoricalData - Fetching data for ADANIPORTS from 2024-10-01 to 2024-10-16
+23:30:29.398 [main] INFO  com.angelbroking.smartapi.http.SmartAPIRequestHandler - headers : {"sourceID":"WEB","clientPublicIP":"103.87.165.35","macAddress":"50-2B-73-E5-D9-5A","userType":"USER","clientLocalIP":"192.168.1.102","accept":"application/json"}
+23:30:29.489 [main] INFO  com.angelbroking.smartapi.http.SmartAPIResponseHandler - ***************************
+23:30:29.830 [main] INFO  com.appdevclaymaster.downloadnsehistoricaldata.DownloadNSEHistoricalData - Fetching data for ALKEM from 2024-01-01 to 2024-01-31
+23:30:29.958 [main] INFO  com.angelbroking.smartapi.http.SmartAPIRequestHandler - headers : {"sourceID":"WEB","clientPublicIP":"103.87.165.35","macAddress":"50-2B-73-E5-D9-5A","userType":"USER","clientLocalIP":"192.168.1.102","accept":"application/json"}
+23:30:30.064 [main] INFO  com.angelbroking.smartapi.http.SmartAPIResponseHandler - ***************************
+23:30:30.410 [main] INFO  com.appdevclaymaster.downloadnsehistoricaldata.DownloadNSEHistoricalData - Fetching data for ALKEM from 2024-02-01 to 2024-02-29
+23:30:30.511 [main] INFO  com.angelbroking.smartapi.http.SmartAPIRequestHandler - headers : {"sourceID":"WEB","clientPublicIP":"103.87.165.35","macAddress":"50-2B-73-E5-D9-5A","userType":"USER","clientLocalIP":"192.168.1.102","accept":"application/json"}
+23:30:30.602 [main] INFO  com.angelbroking.smartapi.http.SmartAPIResponseHandler - ***************************
+23:30:30.941 [main] INFO  com.appdevclaymaster.downloadnsehistoricaldata.DownloadNSEHistoricalData - Fetching data for ALKEM from 2024-03-01 to 2024-03-31
+23:30:31.041 [main] INFO  com.angelbroking.smartapi.http.SmartAPIRequestHandler - headers : {"sourceID":"WEB","clientPublicIP":"103.87.165.35","macAddress":"50-2B-73-E5-D9-5A","userType":"USER","clientLocalIP":"192.168.1.102","accept":"application/json"}
+23:30:31.145 [main] INFO  com.angelbroking.smartapi.http.SmartAPIResponseHandler - ***************************
+23:30:31.483 [main] INFO  com.appdevclaymaster.downloadnsehistoricaldata.DownloadNSEHistoricalData - Fetching data for ALKEM from 2024-04-01 to 2024-04-30
+23:30:31.839 [main] INFO  com.angelbroking.smartapi.http.SmartAPIRequestHandler - headers : {"sourceID":"WEB","clientPublicIP":"103.87.165.35","macAddress":"50-2B-73-E5-D9-5A","userType":"USER","clientLocalIP":"192.168.1.102","accept":"application/json"}
+23:30:31.928 [main] INFO  com.angelbroking.smartapi.http.SmartAPIResponseHandler - ***************************
+23:30:32.266 [main] INFO  com.appdevclaymaster.downloadnsehistoricaldata.DownloadNSEHistoricalData - Fetching data for ALKEM from 2024-05-01 to 2024-05-31
+23:30:32.359 [main] INFO  com.angelbroking.smartapi.http.SmartAPIRequestHandler - headers : {"sourceID":"WEB","clientPublicIP":"103.87.165.35","macAddress":"50-2B-73-E5-D9-5A","userType":"USER","clientLocalIP":"192.168.1.102","accept":"application/json"}
+23:30:32.460 [main] INFO  com.angelbroking.smartapi.http.SmartAPIResponseHandler - ***************************
+23:30:32.798 [main] INFO  com.appdevclaymaster.downloadnsehistoricaldata.DownloadNSEHistoricalData - Fetching data for ALKEM from 2024-06-01 to 2024-06-30
+23:30:32.896 [main] INFO  com.angelbroking.smartapi.http.SmartAPIRequestHandler - headers : {"sourceID":"WEB","clientPublicIP":"103.87.165.35","macAddress":"50-2B-73-E5-D9-5A","userType":"USER","clientLocalIP":"192.168.1.102","accept":"application/json"}
+23:30:34.081 [main] INFO  com.angelbroking.smartapi.http.SmartAPIResponseHandler - ***************************
+23:30:34.421 [main] INFO  com.appdevclaymaster.downloadnsehistoricaldata.DownloadNSEHistoricalData - Fetching data for ALKEM from 2024-07-01 to 2024-07-31
+23:30:34.519 [main] INFO  com.angelbroking.smartapi.http.SmartAPIRequestHandler - headers : {"sourceID":"WEB","clientPublicIP":"103.87.165.35","macAddress":"50-2B-73-E5-D9-5A","userType":"USER","clientLocalIP":"192.168.1.102","accept":"application/json"}
+23:30:34.623 [main] INFO  com.angelbroking.smartapi.http.SmartAPIResponseHandler - ***************************
+23:30:34.967 [main] INFO  com.appdevclaymaster.downloadnsehistoricaldata.DownloadNSEHistoricalData - Fetching data for ALKEM from 2024-08-01 to 2024-08-31
+23:30:35.067 [main] INFO  com.angelbroking.smartapi.http.SmartAPIRequestHandler - headers : {"sourceID":"WEB","clientPublicIP":"103.87.165.35","macAddress":"50-2B-73-E5-D9-5A","userType":"USER","clientLocalIP":"192.168.1.102","accept":"application/json"}
+23:30:35.162 [main] INFO  com.angelbroking.smartapi.http.SmartAPIResponseHandler - ***************************
+23:30:35.503 [main] INFO  com.appdevclaymaster.downloadnsehistoricaldata.DownloadNSEHistoricalData - Fetching data for ALKEM from 2024-09-01 to 2024-09-30
+23:30:35.598 [main] INFO  com.angelbroking.smartapi.http.SmartAPIRequestHandler - headers : {"sourceID":"WEB","clientPublicIP":"103.87.165.35","macAddress":"50-2B-73-E5-D9-5A","userType":"USER","clientLocalIP":"192.168.1.102","accept":"application/json"}
+23:30:35.721 [main] INFO  com.angelbroking.smartapi.http.SmartAPIResponseHandler - ***************************
+23:30:36.060 [main] INFO  com.appdevclaymaster.downloadnsehistoricaldata.DownloadNSEHistoricalData - Fetching data for ALKEM from 2024-10-01 to 2024-10-16
+23:30:36.160 [main] INFO  com.angelbroking.smartapi.http.SmartAPIRequestHandler - headers : {"sourceID":"WEB","clientPublicIP":"103.87.165.35","macAddress":"50-2B-73-E5-D9-5A","userType":"USER","clientLocalIP":"192.168.1.102","accept":"application/json"}
+23:30:36.251 [main] INFO  com.angelbroking.smartapi.http.SmartAPIResponseHandler - ***************************
+23:30:36.591 [main] INFO  com.appdevclaymaster.downloadnsehistoricaldata.DownloadNSEHistoricalData - Fetching data for AMBUJACEM from 2024-01-01 to 2024-01-31
+23:30:36.690 [main] INFO  com.angelbroking.smartapi.http.SmartAPIRequestHandler - headers : {"sourceID":"WEB","clientPublicIP":"103.87.165.35","macAddress":"50-2B-73-E5-D9-5A","userType":"USER","clientLocalIP":"192.168.1.102","accept":"application/json"}
+23:30:37.805 [main] INFO  com.angelbroking.smartapi.http.SmartAPIResponseHandler - ***************************
+23:30:38.145 [main] INFO  com.appdevclaymaster.downloadnsehistoricaldata.DownloadNSEHistoricalData - Fetching data for AMBUJACEM from 2024-02-01 to 2024-02-29
+23:30:38.255 [main] INFO  com.angelbroking.smartapi.http.SmartAPIRequestHandler - headers : {"sourceID":"WEB","clientPublicIP":"103.87.165.35","macAddress":"50-2B-73-E5-D9-5A","userType":"USER","clientLocalIP":"192.168.1.102","accept":"application/json"}
+23:30:38.382 [main] INFO  com.angelbroking.smartapi.http.SmartAPIResponseHandler - ***************************
+23:30:38.721 [main] INFO  com.appdevclaymaster.downloadnsehistoricaldata.DownloadNSEHistoricalData - Fetching data for AMBUJACEM from 2024-03-01 to 2024-03-31
+23:30:38.826 [main] INFO  com.angelbroking.smartapi.http.SmartAPIRequestHandler - headers : {"sourceID":"WEB","clientPublicIP":"103.87.165.35","macAddress":"50-2B-73-E5-D9-5A","userType":"USER","clientLocalIP":"192.168.1.102","accept":"application/json"}
+23:30:44.940 [main] INFO  com.angelbroking.smartapi.http.SmartAPIResponseHandler - ***************************
+23:30:45.282 [main] INFO  com.appdevclaymaster.downloadnsehistoricaldata.DownloadNSEHistoricalData - Fetching data for AMBUJACEM from 2024-04-01 to 2024-04-30
+23:30:45.494 [main] INFO  com.angelbroking.smartapi.http.SmartAPIRequestHandler - headers : {"sourceID":"WEB","clientPublicIP":"103.87.165.35","macAddress":"50-2B-73-E5-D9-5A","userType":"USER","clientLocalIP":"192.168.1.102","accept":"application/json"}
+23:30:45.587 [main] INFO  com.angelbroking.smartapi.http.SmartAPIResponseHandler - ***************************
+23:30:45.928 [main] INFO  com.appdevclaymaster.downloadnsehistoricaldata.DownloadNSEHistoricalData - Fetching data for AMBUJACEM from 2024-05-01 to 2024-05-31
+23:30:46.253 [main] INFO  com.angelbroking.smartapi.http.SmartAPIRequestHandler - headers : {"sourceID":"WEB","clientPublicIP":"103.87.165.35","macAddress":"50-2B-73-E5-D9-5A","userType":"USER","clientLocalIP":"192.168.1.102","accept":"application/json"}
+23:30:46.357 [main] INFO  com.angelbroking.smartapi.http.SmartAPIResponseHandler - ***************************
+23:30:46.696 [main] INFO  com.appdevclaymaster.downloadnsehistoricaldata.DownloadNSEHistoricalData - Fetching data for AMBUJACEM from 2024-06-01 to 2024-06-30
+23:30:46.792 [main] INFO  com.angelbroking.smartapi.http.SmartAPIRequestHandler - headers : {"sourceID":"WEB","clientPublicIP":"103.87.165.35","macAddress":"50-2B-73-E5-D9-5A","userType":"USER","clientLocalIP":"192.168.1.102","accept":"application/json"}
+23:30:46.883 [main] INFO  com.angelbroking.smartapi.http.SmartAPIResponseHandler - ***************************
+23:30:47.221 [main] INFO  com.appdevclaymaster.downloadnsehistoricaldata.DownloadNSEHistoricalData - Fetching data for AMBUJACEM from 2024-07-01 to 2024-07-31
+23:30:47.555 [main] INFO  com.angelbroking.smartapi.http.SmartAPIRequestHandler - headers : {"sourceID":"WEB","clientPublicIP":"103.87.165.35","macAddress":"50-2B-73-E5-D9-5A","userType":"USER","clientLocalIP":"192.168.1.102","accept":"application/json"}
+23:30:47.640 [main] INFO  com.angelbroking.smartapi.http.SmartAPIResponseHandler - ***************************
+23:30:47.980 [main] INFO  com.appdevclaymaster.downloadnsehistoricaldata.DownloadNSEHistoricalData - Fetching data for AMBUJACEM from 2024-08-01 to 2024-08-31
+23:30:48.077 [main] INFO  com.angelbroking.smartapi.http.SmartAPIRequestHandler - headers : {"sourceID":"WEB","clientPublicIP":"103.87.165.35","macAddress":"50-2B-73-E5-D9-5A","userType":"USER","clientLocalIP":"192.168.1.102","accept":"application/json"}
+23:30:48.189 [main] INFO  com.angelbroking.smartapi.http.SmartAPIResponseHandler - ***************************
+23:30:48.528 [main] INFO  com.appdevclaymaster.downloadnsehistoricaldata.DownloadNSEHistoricalData - Fetching data for AMBUJACEM from 2024-09-01 to 2024-09-30
+23:30:48.622 [main] INFO  com.angelbroking.smartapi.http.SmartAPIRequestHandler - headers : {"sourceID":"WEB","clientPublicIP":"103.87.165.35","macAddress":"50-2B-73-E5-D9-5A","userType":"USER","clientLocalIP":"192.168.1.102","accept":"application/json"}
+23:30:48.709 [main] INFO  com.angelbroking.smartapi.http.SmartAPIResponseHandler - ***************************
+23:30:49.048 [main] INFO  com.appdevclaymaster.downloadnsehistoricaldata.DownloadNSEHistoricalData - Fetching data for AMBUJACEM from 2024-10-01 to 2024-10-16
+23:30:49.172 [main] INFO  com.angelbroking.smartapi.http.SmartAPIRequestHandler - headers : {"sourceID":"WEB","clientPublicIP":"103.87.165.35","macAddress":"50-2B-73-E5-D9-5A","userType":"USER","clientLocalIP":"192.168.1.102","accept":"application/json"}
+23:30:49.274 [main] INFO  com.angelbroking.smartapi.http.SmartAPIResponseHandler - ***************************
+23:30:49.611 [main] INFO  com.appdevclaymaster.downloadnsehistoricaldata.DownloadNSEHistoricalData - Fetching data for APOLLOHOSP from 2024-01-01 to 2024-01-31
+23:30:49.712 [main] INFO  com.angelbroking.smartapi.http.SmartAPIRequestHandler - headers : {"sourceID":"WEB","clientPublicIP":"103.87.165.35","macAddress":"50-2B-73-E5-D9-5A","userType":"USER","clientLocalIP":"192.168.1.102","accept":"application/json"}
+23:30:49.804 [main] INFO  com.angelbroking.smartapi.http.SmartAPIResponseHandler - ***************************
+23:30:50.142 [main] INFO  com.appdevclaymaster.downloadnsehistoricaldata.DownloadNSEHistoricalData - Fetching data for APOLLOHOSP from 2024-02-01 to 2024-02-29
+23:30:50.241 [main] INFO  com.angelbroking.smartapi.http.SmartAPIRequestHandler - headers : {"sourceID":"WEB","clientPublicIP":"103.87.165.35","macAddress":"50-2B-73-E5-D9-5A","userType":"USER","clientLocalIP":"192.168.1.102","accept":"application/json"}
+23:30:50.342 [main] INFO  com.angelbroking.smartapi.http.SmartAPIResponseHandler - ***************************
+23:30:50.683 [main] INFO  com.appdevclaymaster.downloadnsehistoricaldata.DownloadNSEHistoricalData - Fetching data for APOLLOHOSP from 2024-03-01 to 2024-03-31
+23:30:50.793 [main] INFO  com.angelbroking.smartapi.http.SmartAPIRequestHandler - headers : {"sourceID":"WEB","clientPublicIP":"103.87.165.35","macAddress":"50-2B-73-E5-D9-5A","userType":"USER","clientLocalIP":"192.168.1.102","accept":"application/json"}
+23:30:50.925 [main] INFO  com.angelbroking.smartapi.http.SmartAPIResponseHandler - ***************************
+23:30:51.264 [main] INFO  com.appdevclaymaster.downloadnsehistoricaldata.DownloadNSEHistoricalData - Fetching data for APOLLOHOSP from 2024-04-01 to 2024-04-30
+23:30:51.363 [main] INFO  com.angelbroking.smartapi.http.SmartAPIRequestHandler - headers : {"sourceID":"WEB","clientPublicIP":"103.87.165.35","macAddress":"50-2B-73-E5-D9-5A","userType":"USER","clientLocalIP":"192.168.1.102","accept":"application/json"}
+23:30:54.537 [main] INFO  com.angelbroking.smartapi.http.SmartAPIResponseHandler - ***************************
+23:30:54.876 [main] INFO  com.appdevclaymaster.downloadnsehistoricaldata.DownloadNSEHistoricalData - Fetching data for APOLLOHOSP from 2024-05-01 to 2024-05-31
+23:30:54.974 [main] INFO  com.angelbroking.smartapi.http.SmartAPIRequestHandler - headers : {"sourceID":"WEB","clientPublicIP":"103.87.165.35","macAddress":"50-2B-73-E5-D9-5A","userType":"USER","clientLocalIP":"192.168.1.102","accept":"application/json"}
+23:30:55.065 [main] INFO  com.angelbroking.smartapi.http.SmartAPIResponseHandler - ***************************
+23:30:55.408 [main] INFO  com.appdevclaymaster.downloadnsehistoricaldata.DownloadNSEHistoricalData - Fetching data for APOLLOHOSP from 2024-06-01 to 2024-06-30
+23:30:55.504 [main] INFO  com.angelbroking.smartapi.http.SmartAPIRequestHandler - headers : {"sourceID":"WEB","clientPublicIP":"103.87.165.35","macAddress":"50-2B-73-E5-D9-5A","userType":"USER","clientLocalIP":"192.168.1.102","accept":"application/json"}
+23:30:55.589 [main] INFO  com.angelbroking.smartapi.http.SmartAPIResponseHandler - ***************************
+23:30:55.928 [main] INFO  com.appdevclaymaster.downloadnsehistoricaldata.DownloadNSEHistoricalData - Fetching data for APOLLOHOSP from 2024-07-01 to 2024-07-31
+23:30:56.030 [main] INFO  com.angelbroking.smartapi.http.SmartAPIRequestHandler - headers : {"sourceID":"WEB","clientPublicIP":"103.87.165.35","macAddress":"50-2B-73-E5-D9-5A","userType":"USER","clientLocalIP":"192.168.1.102","accept":"application/json"}
+23:30:56.138 [main] INFO  com.angelbroking.smartapi.http.SmartAPIResponseHandler - ***************************
+23:30:56.478 [main] INFO  com.appdevclaymaster.downloadnsehistoricaldata.DownloadNSEHistoricalData - Fetching data for APOLLOHOSP from 2024-08-01 to 2024-08-31
+23:30:56.571 [main] INFO  com.angelbroking.smartapi.http.SmartAPIRequestHandler - headers : {"sourceID":"WEB","clientPublicIP":"103.87.165.35","macAddress":"50-2B-73-E5-D9-5A","userType":"USER","clientLocalIP":"192.168.1.102","accept":"application/json"}
+23:30:56.651 [main] INFO  com.angelbroking.smartapi.http.SmartAPIResponseHandler - ***************************
+23:30:56.989 [main] INFO  com.appdevclaymaster.downloadnsehistoricaldata.DownloadNSEHistoricalData - Fetching data for APOLLOHOSP from 2024-09-01 to 2024-09-30
+23:30:57.088 [main] INFO  com.angelbroking.smartapi.http.SmartAPIRequestHandler - headers : {"sourceID":"WEB","clientPublicIP":"103.87.165.35","macAddress":"50-2B-73-E5-D9-5A","userType":"USER","clientLocalIP":"192.168.1.102","accept":"application/json"}
+23:30:57.192 [main] INFO  com.angelbroking.smartapi.http.SmartAPIResponseHandler - ***************************
+23:30:57.531 [main] INFO  com.appdevclaymaster.downloadnsehistoricaldata.DownloadNSEHistoricalData - Fetching data for APOLLOHOSP from 2024-10-01 to 2024-10-16
+23:30:57.626 [main] INFO  com.angelbroking.smartapi.http.SmartAPIRequestHandler - headers : {"sourceID":"WEB","clientPublicIP":"103.87.165.35","macAddress":"50-2B-73-E5-D9-5A","userType":"USER","clientLocalIP":"192.168.1.102","accept":"application/json"}
+23:30:57.714 [main] INFO  com.angelbroking.smartapi.http.SmartAPIResponseHandler - ***************************
+23:30:58.053 [main] INFO  com.appdevclaymaster.downloadnsehistoricaldata.DownloadNSEHistoricalData - Fetching data for APOLLOTYRE from 2024-01-01 to 2024-01-31
+23:30:58.150 [main] INFO  com.angelbroking.smartapi.http.SmartAPIRequestHandler - headers : {"sourceID":"WEB","clientPublicIP":"103.87.165.35","macAddress":"50-2B-73-E5-D9-5A","userType":"USER","clientLocalIP":"192.168.1.102","accept":"application/json"}
+23:31:01.305 [main] INFO  com.angelbroking.smartapi.http.SmartAPIResponseHandler - ***************************
+23:31:01.645 [main] INFO  com.appdevclaymaster.downloadnsehistoricaldata.DownloadNSEHistoricalData - Fetching data for APOLLOTYRE from 2024-02-01 to 2024-02-29
+23:31:01.741 [main] INFO  com.angelbroking.smartapi.http.SmartAPIRequestHandler - headers : {"sourceID":"WEB","clientPublicIP":"103.87.165.35","macAddress":"50-2B-73-E5-D9-5A","userType":"USER","clientLocalIP":"192.168.1.102","accept":"application/json"}
+23:31:01.854 [main] INFO  com.angelbroking.smartapi.http.SmartAPIResponseHandler - ***************************
+23:31:02.194 [main] INFO  com.appdevclaymaster.downloadnsehistoricaldata.DownloadNSEHistoricalData - Fetching data for APOLLOTYRE from 2024-03-01 to 2024-03-31
+23:31:02.291 [main] INFO  com.angelbroking.smartapi.http.SmartAPIRequestHandler - headers : {"sourceID":"WEB","clientPublicIP":"103.87.165.35","macAddress":"50-2B-73-E5-D9-5A","userType":"USER","clientLocalIP":"192.168.1.102","accept":"application/json"}
+23:31:02.397 [main] INFO  com.angelbroking.smartapi.http.SmartAPIResponseHandler - ***************************
+23:31:02.735 [main] INFO  com.appdevclaymaster.downloadnsehistoricaldata.DownloadNSEHistoricalData - Fetching data for APOLLOTYRE from 2024-04-01 to 2024-04-30
+23:31:02.866 [main] INFO  com.angelbroking.smartapi.http.SmartAPIRequestHandler - headers : {"sourceID":"WEB","clientPublicIP":"103.87.165.35","macAddress":"50-2B-73-E5-D9-5A","userType":"USER","clientLocalIP":"192.168.1.102","accept":"application/json"}
+23:31:05.989 [main] INFO  com.angelbroking.smartapi.http.SmartAPIResponseHandler - ***************************
+23:31:06.328 [main] INFO  com.appdevclaymaster.downloadnsehistoricaldata.DownloadNSEHistoricalData - Fetching data for APOLLOTYRE from 2024-05-01 to 2024-05-31
+23:31:06.426 [main] INFO  com.angelbroking.smartapi.http.SmartAPIRequestHandler - headers : {"sourceID":"WEB","clientPublicIP":"103.87.165.35","macAddress":"50-2B-73-E5-D9-5A","userType":"USER","clientLocalIP":"192.168.1.102","accept":"application/json"}
+23:31:06.520 [main] INFO  com.angelbroking.smartapi.http.SmartAPIResponseHandler - ***************************
+23:31:06.859 [main] INFO  com.appdevclaymaster.downloadnsehistoricaldata.DownloadNSEHistoricalData - Fetching data for APOLLOTYRE from 2024-06-01 to 2024-06-30
+23:31:06.954 [main] INFO  com.angelbroking.smartapi.http.SmartAPIRequestHandler - headers : {"sourceID":"WEB","clientPublicIP":"103.87.165.35","macAddress":"50-2B-73-E5-D9-5A","userType":"USER","clientLocalIP":"192.168.1.102","accept":"application/json"}
+23:31:13.074 [main] INFO  com.angelbroking.smartapi.http.SmartAPIResponseHandler - ***************************
+23:31:13.413 [main] INFO  com.appdevclaymaster.downloadnsehistoricaldata.DownloadNSEHistoricalData - Fetching data for APOLLOTYRE from 2024-07-01 to 2024-07-31
+23:31:13.578 [main] INFO  com.angelbroking.smartapi.http.SmartAPIRequestHandler - headers : {"sourceID":"WEB","clientPublicIP":"103.87.165.35","macAddress":"50-2B-73-E5-D9-5A","userType":"USER","clientLocalIP":"192.168.1.102","accept":"application/json"}
+23:31:14.742 [main] INFO  com.angelbroking.smartapi.http.SmartAPIResponseHandler - ***************************
+23:31:15.082 [main] INFO  com.appdevclaymaster.downloadnsehistoricaldata.DownloadNSEHistoricalData - Fetching data for APOLLOTYRE from 2024-08-01 to 2024-08-31
+23:31:15.181 [main] INFO  com.angelbroking.smartapi.http.SmartAPIRequestHandler - headers : {"sourceID":"WEB","clientPublicIP":"103.87.165.35","macAddress":"50-2B-73-E5-D9-5A","userType":"USER","clientLocalIP":"192.168.1.102","accept":"application/json"}
+23:31:15.269 [main] INFO  com.angelbroking.smartapi.http.SmartAPIResponseHandler - ***************************
+23:31:15.608 [main] INFO  com.appdevclaymaster.downloadnsehistoricaldata.DownloadNSEHistoricalData - Fetching data for APOLLOTYRE from 2024-09-01 to 2024-09-30
+23:31:15.706 [main] INFO  com.angelbroking.smartapi.http.SmartAPIRequestHandler - headers : {"sourceID":"WEB","clientPublicIP":"103.87.165.35","macAddress":"50-2B-73-E5-D9-5A","userType":"USER","clientLocalIP":"192.168.1.102","accept":"application/json"}
+23:31:15.792 [main] INFO  com.angelbroking.smartapi.http.SmartAPIResponseHandler - ***************************
+23:31:16.130 [main] INFO  com.appdevclaymaster.downloadnsehistoricaldata.DownloadNSEHistoricalData - Fetching data for APOLLOTYRE from 2024-10-01 to 2024-10-16
+23:31:16.230 [main] INFO  com.angelbroking.smartapi.http.SmartAPIRequestHandler - headers : {"sourceID":"WEB","clientPublicIP":"103.87.165.35","macAddress":"50-2B-73-E5-D9-5A","userType":"USER","clientLocalIP":"192.168.1.102","accept":"application/json"}
+23:31:19.428 [main] INFO  com.angelbroking.smartapi.http.SmartAPIResponseHandler - ***************************
+23:31:19.767 [main] INFO  com.appdevclaymaster.downloadnsehistoricaldata.DownloadNSEHistoricalData - Fetching data for ASHOKLEY from 2024-01-01 to 2024-01-31
+23:31:20.028 [main] INFO  com.angelbroking.smartapi.http.SmartAPIRequestHandler - headers : {"sourceID":"WEB","clientPublicIP":"103.87.165.35","macAddress":"50-2B-73-E5-D9-5A","userType":"USER","clientLocalIP":"192.168.1.102","accept":"application/json"}
+23:31:20.131 [main] INFO  com.angelbroking.smartapi.http.SmartAPIResponseHandler - ***************************
+23:31:20.469 [main] INFO  com.appdevclaymaster.downloadnsehistoricaldata.DownloadNSEHistoricalData - Fetching data for ASHOKLEY from 2024-02-01 to 2024-02-29
+23:31:20.670 [main] INFO  com.angelbroking.smartapi.http.SmartAPIRequestHandler - headers : {"sourceID":"WEB","clientPublicIP":"103.87.165.35","macAddress":"50-2B-73-E5-D9-5A","userType":"USER","clientLocalIP":"192.168.1.102","accept":"application/json"}
+23:31:20.761 [main] INFO  com.angelbroking.smartapi.http.SmartAPIResponseHandler - ***************************
+23:31:21.102 [main] INFO  com.appdevclaymaster.downloadnsehistoricaldata.DownloadNSEHistoricalData - Fetching data for ASHOKLEY from 2024-03-01 to 2024-03-31
+23:31:21.200 [main] INFO  com.angelbroking.smartapi.http.SmartAPIRequestHandler - headers : {"sourceID":"WEB","clientPublicIP":"103.87.165.35","macAddress":"50-2B-73-E5-D9-5A","userType":"USER","clientLocalIP":"192.168.1.102","accept":"application/json"}
+23:31:21.287 [main] INFO  com.angelbroking.smartapi.http.SmartAPIResponseHandler - ***************************
+23:31:21.626 [main] INFO  com.appdevclaymaster.downloadnsehistoricaldata.DownloadNSEHistoricalData - Fetching data for ASHOKLEY from 2024-04-01 to 2024-04-30
+23:31:21.723 [main] INFO  com.angelbroking.smartapi.http.SmartAPIRequestHandler - headers : {"sourceID":"WEB","clientPublicIP":"103.87.165.35","macAddress":"50-2B-73-E5-D9-5A","userType":"USER","clientLocalIP":"192.168.1.102","accept":"application/json"}
+23:31:21.830 [main] INFO  com.angelbroking.smartapi.http.SmartAPIResponseHandler - ***************************
+23:31:22.169 [main] INFO  com.appdevclaymaster.downloadnsehistoricaldata.DownloadNSEHistoricalData - Fetching data for ASHOKLEY from 2024-05-01 to 2024-05-31
+23:31:22.265 [main] INFO  com.angelbroking.smartapi.http.SmartAPIRequestHandler - headers : {"sourceID":"WEB","clientPublicIP":"103.87.165.35","macAddress":"50-2B-73-E5-D9-5A","userType":"USER","clientLocalIP":"192.168.1.102","accept":"application/json"}
+23:31:22.371 [main] INFO  com.angelbroking.smartapi.http.SmartAPIResponseHandler - ***************************
+23:31:22.711 [main] INFO  com.appdevclaymaster.downloadnsehistoricaldata.DownloadNSEHistoricalData - Fetching data for ASHOKLEY from 2024-06-01 to 2024-06-30
+23:31:22.821 [main] INFO  com.angelbroking.smartapi.http.SmartAPIRequestHandler - headers : {"sourceID":"WEB","clientPublicIP":"103.87.165.35","macAddress":"50-2B-73-E5-D9-5A","userType":"USER","clientLocalIP":"192.168.1.102","accept":"application/json"}
+23:31:22.905 [main] INFO  com.angelbroking.smartapi.http.SmartAPIResponseHandler - ***************************
+23:31:23.245 [main] INFO  com.appdevclaymaster.downloadnsehistoricaldata.DownloadNSEHistoricalData - Fetching data for ASHOKLEY from 2024-07-01 to 2024-07-31
+23:31:23.342 [main] INFO  com.angelbroking.smartapi.http.SmartAPIRequestHandler - headers : {"sourceID":"WEB","clientPublicIP":"103.87.165.35","macAddress":"50-2B-73-E5-D9-5A","userType":"USER","clientLocalIP":"192.168.1.102","accept":"application/json"}
+23:31:23.446 [main] INFO  com.angelbroking.smartapi.http.SmartAPIResponseHandler - ***************************
+23:31:23.786 [main] INFO  com.appdevclaymaster.downloadnsehistoricaldata.DownloadNSEHistoricalData - Fetching data for ASHOKLEY from 2024-08-01 to 2024-08-31
+23:31:23.886 [main] INFO  com.angelbroking.smartapi.http.SmartAPIRequestHandler - headers : {"sourceID":"WEB","clientPublicIP":"103.87.165.35","macAddress":"50-2B-73-E5-D9-5A","userType":"USER","clientLocalIP":"192.168.1.102","accept":"application/json"}
+23:31:23.979 [main] INFO  com.angelbroking.smartapi.http.SmartAPIResponseHandler - ***************************
+23:31:24.318 [main] INFO  com.appdevclaymaster.downloadnsehistoricaldata.DownloadNSEHistoricalData - Fetching data for ASHOKLEY from 2024-09-01 to 2024-09-30
+23:31:24.455 [main] INFO  com.angelbroking.smartapi.http.SmartAPIRequestHandler - headers : {"sourceID":"WEB","clientPublicIP":"103.87.165.35","macAddress":"50-2B-73-E5-D9-5A","userType":"USER","clientLocalIP":"192.168.1.102","accept":"application/json"}
+23:31:24.551 [main] INFO  com.angelbroking.smartapi.http.SmartAPIResponseHandler - ***************************
+23:31:24.890 [main] INFO  com.appdevclaymaster.downloadnsehistoricaldata.DownloadNSEHistoricalData - Fetching data for ASHOKLEY from 2024-10-01 to 2024-10-16
+23:31:24.987 [main] INFO  com.angelbroking.smartapi.http.SmartAPIRequestHandler - headers : {"sourceID":"WEB","clientPublicIP":"103.87.165.35","macAddress":"50-2B-73-E5-D9-5A","userType":"USER","clientLocalIP":"192.168.1.102","accept":"application/json"}
+23:31:25.093 [main] INFO  com.angelbroking.smartapi.http.SmartAPIResponseHandler - ***************************
+23:31:25.431 [main] INFO  com.appdevclaymaster.downloadnsehistoricaldata.DownloadNSEHistoricalData - Fetching data for ASIANPAINT from 2024-01-01 to 2024-01-31
+23:31:25.520 [main] INFO  com.angelbroking.smartapi.http.SmartAPIRequestHandler - headers : {"sourceID":"WEB","clientPublicIP":"103.87.165.35","macAddress":"50-2B-73-E5-D9-5A","userType":"USER","clientLocalIP":"192.168.1.102","accept":"application/json"}
+23:31:25.630 [main] INFO  com.angelbroking.smartapi.http.SmartAPIResponseHandler - ***************************
+23:31:25.970 [main] INFO  com.appdevclaymaster.downloadnsehistoricaldata.DownloadNSEHistoricalData - Fetching data for ASIANPAINT from 2024-02-01 to 2024-02-29
+23:31:26.115 [main] INFO  com.angelbroking.smartapi.http.SmartAPIRequestHandler - headers : {"sourceID":"WEB","clientPublicIP":"103.87.165.35","macAddress":"50-2B-73-E5-D9-5A","userType":"USER","clientLocalIP":"192.168.1.102","accept":"application/json"}
+23:31:26.216 [main] INFO  com.angelbroking.smartapi.http.SmartAPIResponseHandler - ***************************
+23:31:26.555 [main] INFO  com.appdevclaymaster.downloadnsehistoricaldata.DownloadNSEHistoricalData - Fetching data for ASIANPAINT from 2024-03-01 to 2024-03-31
+23:31:26.653 [main] INFO  com.angelbroking.smartapi.http.SmartAPIRequestHandler - headers : {"sourceID":"WEB","clientPublicIP":"103.87.165.35","macAddress":"50-2B-73-E5-D9-5A","userType":"USER","clientLocalIP":"192.168.1.102","accept":"application/json"}
+23:31:29.803 [main] INFO  com.angelbroking.smartapi.http.SmartAPIResponseHandler - ***************************
+23:31:30.142 [main] INFO  com.appdevclaymaster.downloadnsehistoricaldata.DownloadNSEHistoricalData - Fetching data for ASIANPAINT from 2024-04-01 to 2024-04-30
+23:31:30.239 [main] INFO  com.angelbroking.smartapi.http.SmartAPIRequestHandler - headers : {"sourceID":"WEB","clientPublicIP":"103.87.165.35","macAddress":"50-2B-73-E5-D9-5A","userType":"USER","clientLocalIP":"192.168.1.102","accept":"application/json"}
+23:31:30.366 [main] INFO  com.angelbroking.smartapi.http.SmartAPIResponseHandler - ***************************
+23:31:30.707 [main] INFO  com.appdevclaymaster.downloadnsehistoricaldata.DownloadNSEHistoricalData - Fetching data for ASIANPAINT from 2024-05-01 to 2024-05-31
+23:31:30.803 [main] INFO  com.angelbroking.smartapi.http.SmartAPIRequestHandler - headers : {"sourceID":"WEB","clientPublicIP":"103.87.165.35","macAddress":"50-2B-73-E5-D9-5A","userType":"USER","clientLocalIP":"192.168.1.102","accept":"application/json"}
+23:31:31.898 [main] INFO  com.angelbroking.smartapi.http.SmartAPIResponseHandler - ***************************
+23:31:32.238 [main] INFO  com.appdevclaymaster.downloadnsehistoricaldata.DownloadNSEHistoricalData - Fetching data for ASIANPAINT from 2024-06-01 to 2024-06-30
+23:31:32.344 [main] INFO  com.angelbroking.smartapi.http.SmartAPIRequestHandler - headers : {"sourceID":"WEB","clientPublicIP":"103.87.165.35","macAddress":"50-2B-73-E5-D9-5A","userType":"USER","clientLocalIP":"192.168.1.102","accept":"application/json"}
+23:31:32.438 [main] INFO  com.angelbroking.smartapi.http.SmartAPIResponseHandler - ***************************
+23:31:32.778 [main] INFO  com.appdevclaymaster.downloadnsehistoricaldata.DownloadNSEHistoricalData - Fetching data for ASIANPAINT from 2024-07-01 to 2024-07-31
+23:31:32.943 [main] INFO  com.angelbroking.smartapi.http.SmartAPIRequestHandler - headers : {"sourceID":"WEB","clientPublicIP":"103.87.165.35","macAddress":"50-2B-73-E5-D9-5A","userType":"USER","clientLocalIP":"192.168.1.102","accept":"application/json"}
+23:31:33.041 [main] INFO  com.angelbroking.smartapi.http.SmartAPIResponseHandler - ***************************
+23:31:33.392 [main] INFO  com.appdevclaymaster.downloadnsehistoricaldata.DownloadNSEHistoricalData - Fetching data for ASIANPAINT from 2024-08-01 to 2024-08-31
+23:31:33.579 [main] INFO  com.angelbroking.smartapi.http.SmartAPIRequestHandler - headers : {"sourceID":"WEB","clientPublicIP":"103.87.165.35","macAddress":"50-2B-73-E5-D9-5A","userType":"USER","clientLocalIP":"192.168.1.102","accept":"application/json"}
+23:31:33.674 [main] INFO  com.angelbroking.smartapi.http.SmartAPIResponseHandler - ***************************
+23:31:34.013 [main] INFO  com.appdevclaymaster.downloadnsehistoricaldata.DownloadNSEHistoricalData - Fetching data for ASIANPAINT from 2024-09-01 to 2024-09-30
+23:31:34.107 [main] INFO  com.angelbroking.smartapi.http.SmartAPIRequestHandler - headers : {"sourceID":"WEB","clientPublicIP":"103.87.165.35","macAddress":"50-2B-73-E5-D9-5A","userType":"USER","clientLocalIP":"192.168.1.102","accept":"application/json"}
+23:31:34.223 [main] INFO  com.angelbroking.smartapi.http.SmartAPIResponseHandler - ***************************
+23:31:34.562 [main] INFO  com.appdevclaymaster.downloadnsehistoricaldata.DownloadNSEHistoricalData - Fetching data for ASIANPAINT from 2024-10-01 to 2024-10-16
+23:31:34.656 [main] INFO  com.angelbroking.smartapi.http.SmartAPIRequestHandler - headers : {"sourceID":"WEB","clientPublicIP":"103.87.165.35","macAddress":"50-2B-73-E5-D9-5A","userType":"USER","clientLocalIP":"192.168.1.102","accept":"application/json"}
+23:31:34.744 [main] INFO  com.angelbroking.smartapi.http.SmartAPIResponseHandler - ***************************
+23:31:35.083 [main] INFO  com.appdevclaymaster.downloadnsehistoricaldata.DownloadNSEHistoricalData - Fetching data for ASTRAL from 2024-01-01 to 2024-01-31
+23:31:35.178 [main] INFO  com.angelbroking.smartapi.http.SmartAPIRequestHandler - headers : {"sourceID":"WEB","clientPublicIP":"103.87.165.35","macAddress":"50-2B-73-E5-D9-5A","userType":"USER","clientLocalIP":"192.168.1.102","accept":"application/json"}
+23:31:35.282 [main] INFO  com.angelbroking.smartapi.http.SmartAPIResponseHandler - ***************************
+23:31:35.620 [main] INFO  com.appdevclaymaster.downloadnsehistoricaldata.DownloadNSEHistoricalData - Fetching data for ASTRAL from 2024-02-01 to 2024-02-29
+23:31:35.717 [main] INFO  com.angelbroking.smartapi.http.SmartAPIRequestHandler - headers : {"sourceID":"WEB","clientPublicIP":"103.87.165.35","macAddress":"50-2B-73-E5-D9-5A","userType":"USER","clientLocalIP":"192.168.1.102","accept":"application/json"}
+23:31:35.808 [main] INFO  com.angelbroking.smartapi.http.SmartAPIResponseHandler - ***************************
+23:31:36.157 [main] INFO  com.appdevclaymaster.downloadnsehistoricaldata.DownloadNSEHistoricalData - Fetching data for ASTRAL from 2024-03-01 to 2024-03-31
+23:31:36.339 [main] INFO  com.angelbroking.smartapi.http.SmartAPIRequestHandler - headers : {"sourceID":"WEB","clientPublicIP":"103.87.165.35","macAddress":"50-2B-73-E5-D9-5A","userType":"USER","clientLocalIP":"192.168.1.102","accept":"application/json"}
+23:31:36.480 [main] INFO  com.angelbroking.smartapi.http.SmartAPIResponseHandler - ***************************
+23:31:36.821 [main] INFO  com.appdevclaymaster.downloadnsehistoricaldata.DownloadNSEHistoricalData - Fetching data for ASTRAL from 2024-04-01 to 2024-04-30
+23:31:36.943 [main] INFO  com.angelbroking.smartapi.http.SmartAPIRequestHandler - headers : {"sourceID":"WEB","clientPublicIP":"103.87.165.35","macAddress":"50-2B-73-E5-D9-5A","userType":"USER","clientLocalIP":"192.168.1.102","accept":"application/json"}
+23:31:37.061 [main] INFO  com.angelbroking.smartapi.http.SmartAPIResponseHandler - ***************************
+23:31:37.400 [main] INFO  com.appdevclaymaster.downloadnsehistoricaldata.DownloadNSEHistoricalData - Fetching data for ASTRAL from 2024-05-01 to 2024-05-31
+23:31:37.499 [main] INFO  com.angelbroking.smartapi.http.SmartAPIRequestHandler - headers : {"sourceID":"WEB","clientPublicIP":"103.87.165.35","macAddress":"50-2B-73-E5-D9-5A","userType":"USER","clientLocalIP":"192.168.1.102","accept":"application/json"}
+23:31:37.604 [main] INFO  com.angelbroking.smartapi.http.SmartAPIResponseHandler - ***************************
+23:31:37.948 [main] INFO  com.appdevclaymaster.downloadnsehistoricaldata.DownloadNSEHistoricalData - Fetching data for ASTRAL from 2024-06-01 to 2024-06-30
+23:31:38.039 [main] INFO  com.angelbroking.smartapi.http.SmartAPIRequestHandler - headers : {"sourceID":"WEB","clientPublicIP":"103.87.165.35","macAddress":"50-2B-73-E5-D9-5A","userType":"USER","clientLocalIP":"192.168.1.102","accept":"application/json"}
+23:31:38.124 [main] INFO  com.angelbroking.smartapi.http.SmartAPIResponseHandler - ***************************
+23:31:38.464 [main] INFO  com.appdevclaymaster.downloadnsehistoricaldata.DownloadNSEHistoricalData - Fetching data for ASTRAL from 2024-07-01 to 2024-07-31
+23:31:38.560 [main] INFO  com.angelbroking.smartapi.http.SmartAPIRequestHandler - headers : {"sourceID":"WEB","clientPublicIP":"103.87.165.35","macAddress":"50-2B-73-E5-D9-5A","userType":"USER","clientLocalIP":"192.168.1.102","accept":"application/json"}
+23:31:38.643 [main] INFO  com.angelbroking.smartapi.http.SmartAPIResponseHandler - ***************************
+23:31:38.981 [main] INFO  com.appdevclaymaster.downloadnsehistoricaldata.DownloadNSEHistoricalData - Fetching data for ASTRAL from 2024-08-01 to 2024-08-31
+23:31:39.080 [main] INFO  com.angelbroking.smartapi.http.SmartAPIRequestHandler - headers : {"sourceID":"WEB","clientPublicIP":"103.87.165.35","macAddress":"50-2B-73-E5-D9-5A","userType":"USER","clientLocalIP":"192.168.1.102","accept":"application/json"}
+23:31:39.179 [main] INFO  com.angelbroking.smartapi.http.SmartAPIResponseHandler - ***************************
+23:31:39.519 [main] INFO  com.appdevclaymaster.downloadnsehistoricaldata.DownloadNSEHistoricalData - Fetching data for ASTRAL from 2024-09-01 to 2024-09-30
+23:31:39.730 [main] INFO  com.angelbroking.smartapi.http.SmartAPIRequestHandler - headers : {"sourceID":"WEB","clientPublicIP":"103.87.165.35","macAddress":"50-2B-73-E5-D9-5A","userType":"USER","clientLocalIP":"192.168.1.102","accept":"application/json"}
+23:31:39.845 [main] INFO  com.angelbroking.smartapi.http.SmartAPIResponseHandler - ***************************
+23:31:40.184 [main] INFO  com.appdevclaymaster.downloadnsehistoricaldata.DownloadNSEHistoricalData - Fetching data for ASTRAL from 2024-10-01 to 2024-10-16
+23:31:40.283 [main] INFO  com.angelbroking.smartapi.http.SmartAPIRequestHandler - headers : {"sourceID":"WEB","clientPublicIP":"103.87.165.35","macAddress":"50-2B-73-E5-D9-5A","userType":"USER","clientLocalIP":"192.168.1.102","accept":"application/json"}
+23:31:40.371 [main] INFO  com.angelbroking.smartapi.http.SmartAPIResponseHandler - ***************************
+23:31:40.710 [main] INFO  com.appdevclaymaster.downloadnsehistoricaldata.DownloadNSEHistoricalData - Fetching data for ATUL from 2024-01-01 to 2024-01-31
+23:31:40.806 [main] INFO  com.angelbroking.smartapi.http.SmartAPIRequestHandler - headers : {"sourceID":"WEB","clientPublicIP":"103.87.165.35","macAddress":"50-2B-73-E5-D9-5A","userType":"USER","clientLocalIP":"192.168.1.102","accept":"application/json"}
+23:31:40.923 [main] INFO  com.angelbroking.smartapi.http.SmartAPIResponseHandler - ***************************
+23:31:41.262 [main] INFO  com.appdevclaymaster.downloadnsehistoricaldata.DownloadNSEHistoricalData - Fetching data for ATUL from 2024-02-01 to 2024-02-29
+23:31:41.360 [main] INFO  com.angelbroking.smartapi.http.SmartAPIRequestHandler - headers : {"sourceID":"WEB","clientPublicIP":"103.87.165.35","macAddress":"50-2B-73-E5-D9-5A","userType":"USER","clientLocalIP":"192.168.1.102","accept":"application/json"}
+23:31:41.448 [main] INFO  com.angelbroking.smartapi.http.SmartAPIResponseHandler - ***************************
+23:31:41.786 [main] INFO  com.appdevclaymaster.downloadnsehistoricaldata.DownloadNSEHistoricalData - Fetching data for ATUL from 2024-03-01 to 2024-03-31
+23:31:41.883 [main] INFO  com.angelbroking.smartapi.http.SmartAPIRequestHandler - headers : {"sourceID":"WEB","clientPublicIP":"103.87.165.35","macAddress":"50-2B-73-E5-D9-5A","userType":"USER","clientLocalIP":"192.168.1.102","accept":"application/json"}
+23:31:41.977 [main] INFO  com.angelbroking.smartapi.http.SmartAPIResponseHandler - ***************************
+23:31:42.318 [main] INFO  com.appdevclaymaster.downloadnsehistoricaldata.DownloadNSEHistoricalData - Fetching data for ATUL from 2024-04-01 to 2024-04-30
+23:31:42.413 [main] INFO  com.angelbroking.smartapi.http.SmartAPIRequestHandler - headers : {"sourceID":"WEB","clientPublicIP":"103.87.165.35","macAddress":"50-2B-73-E5-D9-5A","userType":"USER","clientLocalIP":"192.168.1.102","accept":"application/json"}
+23:31:42.510 [main] INFO  com.angelbroking.smartapi.http.SmartAPIResponseHandler - ***************************
+23:31:42.849 [main] INFO  com.appdevclaymaster.downloadnsehistoricaldata.DownloadNSEHistoricalData - Fetching data for ATUL from 2024-05-01 to 2024-05-31
+23:31:42.943 [main] INFO  com.angelbroking.smartapi.http.SmartAPIRequestHandler - headers : {"sourceID":"WEB","clientPublicIP":"103.87.165.35","macAddress":"50-2B-73-E5-D9-5A","userType":"USER","clientLocalIP":"192.168.1.102","accept":"application/json"}
+23:31:43.040 [main] INFO  com.angelbroking.smartapi.http.SmartAPIResponseHandler - ***************************
+23:31:43.380 [main] INFO  com.appdevclaymaster.downloadnsehistoricaldata.DownloadNSEHistoricalData - Fetching data for ATUL from 2024-06-01 to 2024-06-30
+23:31:43.483 [main] INFO  com.angelbroking.smartapi.http.SmartAPIRequestHandler - headers : {"sourceID":"WEB","clientPublicIP":"103.87.165.35","macAddress":"50-2B-73-E5-D9-5A","userType":"USER","clientLocalIP":"192.168.1.102","accept":"application/json"}
+23:31:43.585 [main] INFO  com.angelbroking.smartapi.http.SmartAPIResponseHandler - ***************************
+23:31:43.925 [main] INFO  com.appdevclaymaster.downloadnsehistoricaldata.DownloadNSEHistoricalData - Fetching data for ATUL from 2024-07-01 to 2024-07-31
+23:31:44.020 [main] INFO  com.angelbroking.smartapi.http.SmartAPIRequestHandler - headers : {"sourceID":"WEB","clientPublicIP":"103.87.165.35","macAddress":"50-2B-73-E5-D9-5A","userType":"USER","clientLocalIP":"192.168.1.102","accept":"application/json"}
+23:31:44.103 [main] INFO  com.angelbroking.smartapi.http.SmartAPIResponseHandler - ***************************
+23:31:44.441 [main] INFO  com.appdevclaymaster.downloadnsehistoricaldata.DownloadNSEHistoricalData - Fetching data for ATUL from 2024-08-01 to 2024-08-31
+23:31:44.536 [main] INFO  com.angelbroking.smartapi.http.SmartAPIRequestHandler - headers : {"sourceID":"WEB","clientPublicIP":"103.87.165.35","macAddress":"50-2B-73-E5-D9-5A","userType":"USER","clientLocalIP":"192.168.1.102","accept":"application/json"}
+23:31:44.626 [main] INFO  com.angelbroking.smartapi.http.SmartAPIResponseHandler - ***************************
+23:31:44.965 [main] INFO  com.appdevclaymaster.downloadnsehistoricaldata.DownloadNSEHistoricalData - Fetching data for ATUL from 2024-09-01 to 2024-09-30
+23:31:45.061 [main] INFO  com.angelbroking.smartapi.http.SmartAPIRequestHandler - headers : {"sourceID":"WEB","clientPublicIP":"103.87.165.35","macAddress":"50-2B-73-E5-D9-5A","userType":"USER","clientLocalIP":"192.168.1.102","accept":"application/json"}
+23:31:45.140 [main] INFO  com.angelbroking.smartapi.http.SmartAPIResponseHandler - ***************************
+23:31:45.480 [main] INFO  com.appdevclaymaster.downloadnsehistoricaldata.DownloadNSEHistoricalData - Fetching data for ATUL from 2024-10-01 to 2024-10-16
+23:31:45.577 [main] INFO  com.angelbroking.smartapi.http.SmartAPIRequestHandler - headers : {"sourceID":"WEB","clientPublicIP":"103.87.165.35","macAddress":"50-2B-73-E5-D9-5A","userType":"USER","clientLocalIP":"192.168.1.102","accept":"application/json"}
+23:31:48.725 [main] INFO  com.angelbroking.smartapi.http.SmartAPIResponseHandler - ***************************
+23:31:49.064 [main] INFO  com.appdevclaymaster.downloadnsehistoricaldata.DownloadNSEHistoricalData - Fetching data for AUBANK from 2024-01-01 to 2024-01-31
+23:31:49.437 [main] INFO  com.angelbroking.smartapi.http.SmartAPIRequestHandler - headers : {"sourceID":"WEB","clientPublicIP":"103.87.165.35","macAddress":"50-2B-73-E5-D9-5A","userType":"USER","clientLocalIP":"192.168.1.102","accept":"application/json"}
+23:31:49.541 [main] INFO  com.angelbroking.smartapi.http.SmartAPIResponseHandler - ***************************
+23:31:49.883 [main] INFO  com.appdevclaymaster.downloadnsehistoricaldata.DownloadNSEHistoricalData - Fetching data for AUBANK from 2024-02-01 to 2024-02-29
+23:31:49.979 [main] INFO  com.angelbroking.smartapi.http.SmartAPIRequestHandler - headers : {"sourceID":"WEB","clientPublicIP":"103.87.165.35","macAddress":"50-2B-73-E5-D9-5A","userType":"USER","clientLocalIP":"192.168.1.102","accept":"application/json"}
+23:31:53.125 [main] INFO  com.angelbroking.smartapi.http.SmartAPIResponseHandler - ***************************
+23:31:53.465 [main] INFO  com.appdevclaymaster.downloadnsehistoricaldata.DownloadNSEHistoricalData - Fetching data for AUBANK from 2024-03-01 to 2024-03-31
+23:31:53.562 [main] INFO  com.angelbroking.smartapi.http.SmartAPIRequestHandler - headers : {"sourceID":"WEB","clientPublicIP":"103.87.165.35","macAddress":"50-2B-73-E5-D9-5A","userType":"USER","clientLocalIP":"192.168.1.102","accept":"application/json"}
+23:31:53.660 [main] INFO  com.angelbroking.smartapi.http.SmartAPIResponseHandler - ***************************
+23:31:53.999 [main] INFO  com.appdevclaymaster.downloadnsehistoricaldata.DownloadNSEHistoricalData - Fetching data for AUBANK from 2024-04-01 to 2024-04-30
+23:31:54.093 [main] INFO  com.angelbroking.smartapi.http.SmartAPIRequestHandler - headers : {"sourceID":"WEB","clientPublicIP":"103.87.165.35","macAddress":"50-2B-73-E5-D9-5A","userType":"USER","clientLocalIP":"192.168.1.102","accept":"application/json"}
+23:31:55.309 [main] INFO  com.angelbroking.smartapi.http.SmartAPIResponseHandler - ***************************
+23:31:55.647 [main] INFO  com.appdevclaymaster.downloadnsehistoricaldata.DownloadNSEHistoricalData - Fetching data for AUBANK from 2024-05-01 to 2024-05-31
+23:31:55.742 [main] INFO  com.angelbroking.smartapi.http.SmartAPIRequestHandler - headers : {"sourceID":"WEB","clientPublicIP":"103.87.165.35","macAddress":"50-2B-73-E5-D9-5A","userType":"USER","clientLocalIP":"192.168.1.102","accept":"application/json"}
+23:32:05.745 [main] ERROR com.angelbroking.smartapi.http.SmartAPIRequestHandler - Error in POST request. Request URL: https://apiconnect.angelone.in/rest/secure/angelbroking/historical/v1/getCandleData, Request Headers: Content-Type: application/json
+Authorization: ??
+X-ClientLocalIP: 192.168.1.102
+X-ClientPublicIP: 103.87.165.35
+X-MACAddress: 50-2B-73-E5-D9-5A
+Accept: application/json
+X-PrivateKey: qdYCcdyW
+X-UserType: USER
+X-SourceID: WEB
+, Request Body: {"todate":"2024-05-31 15:30","exchange":"NSE","interval":"ONE_MINUTE","symboltoken":"21238","fromdate":"2024-05-01 09:15"},Response : Connect timed out
+23:32:05.745 [main] ERROR com.appdevclaymaster.downloadnsehistoricaldata.DownloadNSEHistoricalData - Error while fetching candle data
+23:32:05.745 [main] ERROR com.appdevclaymaster.downloadnsehistoricaldata.DownloadNSEHistoricalData - response is : null
+23:32:05.745 [main] ERROR com.appdevclaymaster.downloadnsehistoricaldata.DownloadNSEHistoricalData - Connect timed out
+23:32:06.079 [main] INFO  com.appdevclaymaster.downloadnsehistoricaldata.DownloadNSEHistoricalData - Fetching data for AUBANK from 2024-06-01 to 2024-06-30
+23:32:06.250 [main] INFO  com.angelbroking.smartapi.http.SmartAPIRequestHandler - headers : {"sourceID":"WEB","clientPublicIP":"103.87.165.35","macAddress":"50-2B-73-E5-D9-5A","userType":"USER","clientLocalIP":"192.168.1.102","accept":"application/json"}
+23:32:09.420 [main] INFO  com.angelbroking.smartapi.http.SmartAPIResponseHandler - ***************************
+23:32:09.759 [main] INFO  com.appdevclaymaster.downloadnsehistoricaldata.DownloadNSEHistoricalData - Fetching data for AUBANK from 2024-07-01 to 2024-07-31
+23:32:09.853 [main] INFO  com.angelbroking.smartapi.http.SmartAPIRequestHandler - headers : {"sourceID":"WEB","clientPublicIP":"103.87.165.35","macAddress":"50-2B-73-E5-D9-5A","userType":"USER","clientLocalIP":"192.168.1.102","accept":"application/json"}
+23:32:13.084 [main] INFO  com.angelbroking.smartapi.http.SmartAPIResponseHandler - ***************************
+23:32:13.489 [main] INFO  com.appdevclaymaster.downloadnsehistoricaldata.DownloadNSEHistoricalData - Fetching data for AUBANK from 2024-08-01 to 2024-08-31
+23:32:13.680 [main] INFO  com.angelbroking.smartapi.http.SmartAPIRequestHandler - headers : {"sourceID":"WEB","clientPublicIP":"103.87.165.35","macAddress":"50-2B-73-E5-D9-5A","userType":"USER","clientLocalIP":"192.168.1.102","accept":"application/json"}
+23:32:14.424 [main] INFO  com.angelbroking.smartapi.http.SmartAPIResponseHandler - ***************************
+23:32:14.776 [main] INFO  com.appdevclaymaster.downloadnsehistoricaldata.DownloadNSEHistoricalData - Fetching data for AUBANK from 2024-09-01 to 2024-09-30
+23:32:14.920 [main] INFO  com.angelbroking.smartapi.http.SmartAPIRequestHandler - headers : {"sourceID":"WEB","clientPublicIP":"103.87.165.35","macAddress":"50-2B-73-E5-D9-5A","userType":"USER","clientLocalIP":"192.168.1.102","accept":"application/json"}
+23:32:15.047 [main] INFO  com.angelbroking.smartapi.http.SmartAPIResponseHandler - ***************************
+23:32:15.386 [main] INFO  com.appdevclaymaster.downloadnsehistoricaldata.DownloadNSEHistoricalData - Fetching data for AUBANK from 2024-10-01 to 2024-10-16
+23:32:15.499 [main] INFO  com.angelbroking.smartapi.http.SmartAPIRequestHandler - headers : {"sourceID":"WEB","clientPublicIP":"103.87.165.35","macAddress":"50-2B-73-E5-D9-5A","userType":"USER","clientLocalIP":"192.168.1.102","accept":"application/json"}
+23:32:18.719 [main] INFO  com.angelbroking.smartapi.http.SmartAPIResponseHandler - ***************************
+23:32:19.060 [main] INFO  com.appdevclaymaster.downloadnsehistoricaldata.DownloadNSEHistoricalData - Fetching data for AUROPHARMA from 2024-01-01 to 2024-01-31
+23:32:19.160 [main] INFO  com.angelbroking.smartapi.http.SmartAPIRequestHandler - headers : {"sourceID":"WEB","clientPublicIP":"103.87.165.35","macAddress":"50-2B-73-E5-D9-5A","userType":"USER","clientLocalIP":"192.168.1.102","accept":"application/json"}
+23:32:19.252 [main] INFO  com.angelbroking.smartapi.http.SmartAPIResponseHandler - ***************************
+23:32:19.595 [main] INFO  com.appdevclaymaster.downloadnsehistoricaldata.DownloadNSEHistoricalData - Fetching data for AUROPHARMA from 2024-02-01 to 2024-02-29
+23:32:20.146 [main] INFO  com.angelbroking.smartapi.http.SmartAPIRequestHandler - headers : {"sourceID":"WEB","clientPublicIP":"103.87.165.35","macAddress":"50-2B-73-E5-D9-5A","userType":"USER","clientLocalIP":"192.168.1.102","accept":"application/json"}
+23:32:21.353 [main] INFO  com.angelbroking.smartapi.http.SmartAPIResponseHandler - ***************************
+23:32:21.693 [main] INFO  com.appdevclaymaster.downloadnsehistoricaldata.DownloadNSEHistoricalData - Fetching data for AUROPHARMA from 2024-03-01 to 2024-03-31
+23:32:21.788 [main] INFO  com.angelbroking.smartapi.http.SmartAPIRequestHandler - headers : {"sourceID":"WEB","clientPublicIP":"103.87.165.35","macAddress":"50-2B-73-E5-D9-5A","userType":"USER","clientLocalIP":"192.168.1.102","accept":"application/json"}
+23:32:21.895 [main] INFO  com.angelbroking.smartapi.http.SmartAPIResponseHandler - ***************************
+23:32:22.236 [main] INFO  com.appdevclaymaster.downloadnsehistoricaldata.DownloadNSEHistoricalData - Fetching data for AUROPHARMA from 2024-04-01 to 2024-04-30
+23:32:22.330 [main] INFO  com.angelbroking.smartapi.http.SmartAPIRequestHandler - headers : {"sourceID":"WEB","clientPublicIP":"103.87.165.35","macAddress":"50-2B-73-E5-D9-5A","userType":"USER","clientLocalIP":"192.168.1.102","accept":"application/json"}
+23:32:22.415 [main] INFO  com.angelbroking.smartapi.http.SmartAPIResponseHandler - ***************************
+23:32:22.755 [main] INFO  com.appdevclaymaster.downloadnsehistoricaldata.DownloadNSEHistoricalData - Fetching data for AUROPHARMA from 2024-05-01 to 2024-05-31
+23:32:22.853 [main] INFO  com.angelbroking.smartapi.http.SmartAPIRequestHandler - headers : {"sourceID":"WEB","clientPublicIP":"103.87.165.35","macAddress":"50-2B-73-E5-D9-5A","userType":"USER","clientLocalIP":"192.168.1.102","accept":"application/json"}
+23:32:22.951 [main] INFO  com.angelbroking.smartapi.http.SmartAPIResponseHandler - ***************************
+23:32:23.291 [main] INFO  com.appdevclaymaster.downloadnsehistoricaldata.DownloadNSEHistoricalData - Fetching data for AUROPHARMA from 2024-06-01 to 2024-06-30
+23:32:23.387 [main] INFO  com.angelbroking.smartapi.http.SmartAPIRequestHandler - headers : {"sourceID":"WEB","clientPublicIP":"103.87.165.35","macAddress":"50-2B-73-E5-D9-5A","userType":"USER","clientLocalIP":"192.168.1.102","accept":"application/json"}
+23:32:26.623 [main] INFO  com.angelbroking.smartapi.http.SmartAPIResponseHandler - ***************************
+23:32:26.960 [main] INFO  com.appdevclaymaster.downloadnsehistoricaldata.DownloadNSEHistoricalData - Fetching data for AUROPHARMA from 2024-07-01 to 2024-07-31
+23:32:27.085 [main] INFO  com.angelbroking.smartapi.http.SmartAPIRequestHandler - headers : {"sourceID":"WEB","clientPublicIP":"103.87.165.35","macAddress":"50-2B-73-E5-D9-5A","userType":"USER","clientLocalIP":"192.168.1.102","accept":"application/json"}
+23:32:27.209 [main] INFO  com.angelbroking.smartapi.http.SmartAPIResponseHandler - ***************************
+23:32:27.548 [main] INFO  com.appdevclaymaster.downloadnsehistoricaldata.DownloadNSEHistoricalData - Fetching data for AUROPHARMA from 2024-08-01 to 2024-08-31
+23:32:27.647 [main] INFO  com.angelbroking.smartapi.http.SmartAPIRequestHandler - headers : {"sourceID":"WEB","clientPublicIP":"103.87.165.35","macAddress":"50-2B-73-E5-D9-5A","userType":"USER","clientLocalIP":"192.168.1.102","accept":"application/json"}
+23:32:27.736 [main] INFO  com.angelbroking.smartapi.http.SmartAPIResponseHandler - ***************************
+23:32:28.075 [main] INFO  com.appdevclaymaster.downloadnsehistoricaldata.DownloadNSEHistoricalData - Fetching data for AUROPHARMA from 2024-09-01 to 2024-09-30
+23:32:28.166 [main] INFO  com.angelbroking.smartapi.http.SmartAPIRequestHandler - headers : {"sourceID":"WEB","clientPublicIP":"103.87.165.35","macAddress":"50-2B-73-E5-D9-5A","userType":"USER","clientLocalIP":"192.168.1.102","accept":"application/json"}
+23:32:28.265 [main] INFO  com.angelbroking.smartapi.http.SmartAPIResponseHandler - ***************************
+23:32:28.603 [main] INFO  com.appdevclaymaster.downloadnsehistoricaldata.DownloadNSEHistoricalData - Fetching data for AUROPHARMA from 2024-10-01 to 2024-10-16
+23:32:28.696 [main] INFO  com.angelbroking.smartapi.http.SmartAPIRequestHandler - headers : {"sourceID":"WEB","clientPublicIP":"103.87.165.35","macAddress":"50-2B-73-E5-D9-5A","userType":"USER","clientLocalIP":"192.168.1.102","accept":"application/json"}
+23:32:28.775 [main] INFO  com.angelbroking.smartapi.http.SmartAPIResponseHandler - ***************************
+23:32:29.114 [main] INFO  com.appdevclaymaster.downloadnsehistoricaldata.DownloadNSEHistoricalData - Fetching data for AXISBANK from 2024-01-01 to 2024-01-31
+23:32:29.208 [main] INFO  com.angelbroking.smartapi.http.SmartAPIRequestHandler - headers : {"sourceID":"WEB","clientPublicIP":"103.87.165.35","macAddress":"50-2B-73-E5-D9-5A","userType":"USER","clientLocalIP":"192.168.1.102","accept":"application/json"}
+23:32:29.293 [main] INFO  com.angelbroking.smartapi.http.SmartAPIResponseHandler - ***************************
+23:32:29.631 [main] INFO  com.appdevclaymaster.downloadnsehistoricaldata.DownloadNSEHistoricalData - Fetching data for AXISBANK from 2024-02-01 to 2024-02-29
+23:32:29.725 [main] INFO  com.angelbroking.smartapi.http.SmartAPIRequestHandler - headers : {"sourceID":"WEB","clientPublicIP":"103.87.165.35","macAddress":"50-2B-73-E5-D9-5A","userType":"USER","clientLocalIP":"192.168.1.102","accept":"application/json"}
+23:32:29.811 [main] INFO  com.angelbroking.smartapi.http.SmartAPIResponseHandler - ***************************
+23:32:30.153 [main] INFO  com.appdevclaymaster.downloadnsehistoricaldata.DownloadNSEHistoricalData - Fetching data for AXISBANK from 2024-03-01 to 2024-03-31
+23:32:30.245 [main] INFO  com.angelbroking.smartapi.http.SmartAPIRequestHandler - headers : {"sourceID":"WEB","clientPublicIP":"103.87.165.35","macAddress":"50-2B-73-E5-D9-5A","userType":"USER","clientLocalIP":"192.168.1.102","accept":"application/json"}
+23:32:30.331 [main] INFO  com.angelbroking.smartapi.http.SmartAPIResponseHandler - ***************************
+23:32:30.671 [main] INFO  com.appdevclaymaster.downloadnsehistoricaldata.DownloadNSEHistoricalData - Fetching data for AXISBANK from 2024-04-01 to 2024-04-30
+23:32:30.768 [main] INFO  com.angelbroking.smartapi.http.SmartAPIRequestHandler - headers : {"sourceID":"WEB","clientPublicIP":"103.87.165.35","macAddress":"50-2B-73-E5-D9-5A","userType":"USER","clientLocalIP":"192.168.1.102","accept":"application/json"}
+23:32:30.847 [main] INFO  com.angelbroking.smartapi.http.SmartAPIResponseHandler - ***************************
+23:32:31.186 [main] INFO  com.appdevclaymaster.downloadnsehistoricaldata.DownloadNSEHistoricalData - Fetching data for AXISBANK from 2024-05-01 to 2024-05-31
+23:32:31.281 [main] INFO  com.angelbroking.smartapi.http.SmartAPIRequestHandler - headers : {"sourceID":"WEB","clientPublicIP":"103.87.165.35","macAddress":"50-2B-73-E5-D9-5A","userType":"USER","clientLocalIP":"192.168.1.102","accept":"application/json"}
+23:32:31.378 [main] INFO  com.angelbroking.smartapi.http.SmartAPIResponseHandler - ***************************
+23:32:31.716 [main] INFO  com.appdevclaymaster.downloadnsehistoricaldata.DownloadNSEHistoricalData - Fetching data for AXISBANK from 2024-06-01 to 2024-06-30
+23:32:31.812 [main] INFO  com.angelbroking.smartapi.http.SmartAPIRequestHandler - headers : {"sourceID":"WEB","clientPublicIP":"103.87.165.35","macAddress":"50-2B-73-E5-D9-5A","userType":"USER","clientLocalIP":"192.168.1.102","accept":"application/json"}
+23:32:31.907 [main] INFO  com.angelbroking.smartapi.http.SmartAPIResponseHandler - ***************************
+23:32:32.250 [main] INFO  com.appdevclaymaster.downloadnsehistoricaldata.DownloadNSEHistoricalData - Fetching data for AXISBANK from 2024-07-01 to 2024-07-31
+23:32:32.353 [main] INFO  com.angelbroking.smartapi.http.SmartAPIRequestHandler - headers : {"sourceID":"WEB","clientPublicIP":"103.87.165.35","macAddress":"50-2B-73-E5-D9-5A","userType":"USER","clientLocalIP":"192.168.1.102","accept":"application/json"}
+23:32:32.454 [main] INFO  com.angelbroking.smartapi.http.SmartAPIResponseHandler - ***************************
+23:32:32.793 [main] INFO  com.appdevclaymaster.downloadnsehistoricaldata.DownloadNSEHistoricalData - Fetching data for AXISBANK from 2024-08-01 to 2024-08-31
+23:32:32.886 [main] INFO  com.angelbroking.smartapi.http.SmartAPIRequestHandler - headers : {"sourceID":"WEB","clientPublicIP":"103.87.165.35","macAddress":"50-2B-73-E5-D9-5A","userType":"USER","clientLocalIP":"192.168.1.102","accept":"application/json"}
+23:32:32.973 [main] INFO  com.angelbroking.smartapi.http.SmartAPIResponseHandler - ***************************
+23:32:33.312 [main] INFO  com.appdevclaymaster.downloadnsehistoricaldata.DownloadNSEHistoricalData - Fetching data for AXISBANK from 2024-09-01 to 2024-09-30
+23:32:33.407 [main] INFO  com.angelbroking.smartapi.http.SmartAPIRequestHandler - headers : {"sourceID":"WEB","clientPublicIP":"103.87.165.35","macAddress":"50-2B-73-E5-D9-5A","userType":"USER","clientLocalIP":"192.168.1.102","accept":"application/json"}
+23:32:33.503 [main] INFO  com.angelbroking.smartapi.http.SmartAPIResponseHandler - ***************************
+23:32:33.841 [main] INFO  com.appdevclaymaster.downloadnsehistoricaldata.DownloadNSEHistoricalData - Fetching data for AXISBANK from 2024-10-01 to 2024-10-16
+23:32:33.934 [main] INFO  com.angelbroking.smartapi.http.SmartAPIRequestHandler - headers : {"sourceID":"WEB","clientPublicIP":"103.87.165.35","macAddress":"50-2B-73-E5-D9-5A","userType":"USER","clientLocalIP":"192.168.1.102","accept":"application/json"}
+23:32:34.024 [main] INFO  com.angelbroking.smartapi.http.SmartAPIResponseHandler - ***************************
+23:32:34.363 [main] INFO  com.appdevclaymaster.downloadnsehistoricaldata.DownloadNSEHistoricalData - Fetching data for BAJAJ-AUTO from 2024-01-01 to 2024-01-31
+23:32:34.459 [main] INFO  com.angelbroking.smartapi.http.SmartAPIRequestHandler - headers : {"sourceID":"WEB","clientPublicIP":"103.87.165.35","macAddress":"50-2B-73-E5-D9-5A","userType":"USER","clientLocalIP":"192.168.1.102","accept":"application/json"}
+23:32:34.545 [main] INFO  com.angelbroking.smartapi.http.SmartAPIResponseHandler - ***************************
+23:32:34.894 [main] INFO  com.appdevclaymaster.downloadnsehistoricaldata.DownloadNSEHistoricalData - Fetching data for BAJAJ-AUTO from 2024-02-01 to 2024-02-29
+23:32:34.989 [main] INFO  com.angelbroking.smartapi.http.SmartAPIRequestHandler - headers : {"sourceID":"WEB","clientPublicIP":"103.87.165.35","macAddress":"50-2B-73-E5-D9-5A","userType":"USER","clientLocalIP":"192.168.1.102","accept":"application/json"}
+23:32:35.096 [main] INFO  com.angelbroking.smartapi.http.SmartAPIResponseHandler - ***************************
+23:32:35.433 [main] INFO  com.appdevclaymaster.downloadnsehistoricaldata.DownloadNSEHistoricalData - Fetching data for BAJAJ-AUTO from 2024-03-01 to 2024-03-31
+23:32:35.525 [main] INFO  com.angelbroking.smartapi.http.SmartAPIRequestHandler - headers : {"sourceID":"WEB","clientPublicIP":"103.87.165.35","macAddress":"50-2B-73-E5-D9-5A","userType":"USER","clientLocalIP":"192.168.1.102","accept":"application/json"}
+23:32:35.616 [main] INFO  com.angelbroking.smartapi.http.SmartAPIResponseHandler - ***************************
+23:32:35.955 [main] INFO  com.appdevclaymaster.downloadnsehistoricaldata.DownloadNSEHistoricalData - Fetching data for BAJAJ-AUTO from 2024-04-01 to 2024-04-30
+23:32:36.057 [main] INFO  com.angelbroking.smartapi.http.SmartAPIRequestHandler - headers : {"sourceID":"WEB","clientPublicIP":"103.87.165.35","macAddress":"50-2B-73-E5-D9-5A","userType":"USER","clientLocalIP":"192.168.1.102","accept":"application/json"}
+23:32:36.145 [main] INFO  com.angelbroking.smartapi.http.SmartAPIResponseHandler - ***************************
+23:32:36.483 [main] INFO  com.appdevclaymaster.downloadnsehistoricaldata.DownloadNSEHistoricalData - Fetching data for BAJAJ-AUTO from 2024-05-01 to 2024-05-31
+23:32:36.575 [main] INFO  com.angelbroking.smartapi.http.SmartAPIRequestHandler - headers : {"sourceID":"WEB","clientPublicIP":"103.87.165.35","macAddress":"50-2B-73-E5-D9-5A","userType":"USER","clientLocalIP":"192.168.1.102","accept":"application/json"}
+23:32:36.669 [main] INFO  com.angelbroking.smartapi.http.SmartAPIResponseHandler - ***************************
+23:32:37.008 [main] INFO  com.appdevclaymaster.downloadnsehistoricaldata.DownloadNSEHistoricalData - Fetching data for BAJAJ-AUTO from 2024-06-01 to 2024-06-30
+23:32:37.103 [main] INFO  com.angelbroking.smartapi.http.SmartAPIRequestHandler - headers : {"sourceID":"WEB","clientPublicIP":"103.87.165.35","macAddress":"50-2B-73-E5-D9-5A","userType":"USER","clientLocalIP":"192.168.1.102","accept":"application/json"}
+23:32:37.220 [main] INFO  com.angelbroking.smartapi.http.SmartAPIResponseHandler - ***************************
+23:32:37.561 [main] INFO  com.appdevclaymaster.downloadnsehistoricaldata.DownloadNSEHistoricalData - Fetching data for BAJAJ-AUTO from 2024-07-01 to 2024-07-31
+23:32:37.659 [main] INFO  com.angelbroking.smartapi.http.SmartAPIRequestHandler - headers : {"sourceID":"WEB","clientPublicIP":"103.87.165.35","macAddress":"50-2B-73-E5-D9-5A","userType":"USER","clientLocalIP":"192.168.1.102","accept":"application/json"}
+23:32:37.747 [main] INFO  com.angelbroking.smartapi.http.SmartAPIResponseHandler - ***************************
+23:32:38.085 [main] INFO  com.appdevclaymaster.downloadnsehistoricaldata.DownloadNSEHistoricalData - Fetching data for BAJAJ-AUTO from 2024-08-01 to 2024-08-31
+23:32:38.180 [main] INFO  com.angelbroking.smartapi.http.SmartAPIRequestHandler - headers : {"sourceID":"WEB","clientPublicIP":"103.87.165.35","macAddress":"50-2B-73-E5-D9-5A","userType":"USER","clientLocalIP":"192.168.1.102","accept":"application/json"}
+23:32:38.276 [main] INFO  com.angelbroking.smartapi.http.SmartAPIResponseHandler - ***************************
+23:32:38.614 [main] INFO  com.appdevclaymaster.downloadnsehistoricaldata.DownloadNSEHistoricalData - Fetching data for BAJAJ-AUTO from 2024-09-01 to 2024-09-30
+23:32:38.723 [main] INFO  com.angelbroking.smartapi.http.SmartAPIRequestHandler - headers : {"sourceID":"WEB","clientPublicIP":"103.87.165.35","macAddress":"50-2B-73-E5-D9-5A","userType":"USER","clientLocalIP":"192.168.1.102","accept":"application/json"}
+23:32:44.840 [main] INFO  com.angelbroking.smartapi.http.SmartAPIResponseHandler - ***************************
+23:32:45.181 [main] INFO  com.appdevclaymaster.downloadnsehistoricaldata.DownloadNSEHistoricalData - Fetching data for BAJAJ-AUTO from 2024-10-01 to 2024-10-16
+23:32:45.349 [main] INFO  com.angelbroking.smartapi.http.SmartAPIRequestHandler - headers : {"sourceID":"WEB","clientPublicIP":"103.87.165.35","macAddress":"50-2B-73-E5-D9-5A","userType":"USER","clientLocalIP":"192.168.1.102","accept":"application/json"}
+23:32:45.439 [main] INFO  com.angelbroking.smartapi.http.SmartAPIResponseHandler - ***************************
+23:32:45.779 [main] INFO  com.appdevclaymaster.downloadnsehistoricaldata.DownloadNSEHistoricalData - Fetching data for BAJAJFINSV from 2024-01-01 to 2024-01-31
+23:32:45.875 [main] INFO  com.angelbroking.smartapi.http.SmartAPIRequestHandler - headers : {"sourceID":"WEB","clientPublicIP":"103.87.165.35","macAddress":"50-2B-73-E5-D9-5A","userType":"USER","clientLocalIP":"192.168.1.102","accept":"application/json"}
+23:32:45.977 [main] INFO  com.angelbroking.smartapi.http.SmartAPIResponseHandler - ***************************
+23:32:46.314 [main] INFO  com.appdevclaymaster.downloadnsehistoricaldata.DownloadNSEHistoricalData - Fetching data for BAJAJFINSV from 2024-02-01 to 2024-02-29
+23:32:46.414 [main] INFO  com.angelbroking.smartapi.http.SmartAPIRequestHandler - headers : {"sourceID":"WEB","clientPublicIP":"103.87.165.35","macAddress":"50-2B-73-E5-D9-5A","userType":"USER","clientLocalIP":"192.168.1.102","accept":"application/json"}
+23:32:46.525 [main] INFO  com.angelbroking.smartapi.http.SmartAPIResponseHandler - ***************************
+23:32:46.863 [main] INFO  com.appdevclaymaster.downloadnsehistoricaldata.DownloadNSEHistoricalData - Fetching data for BAJAJFINSV from 2024-03-01 to 2024-03-31
+23:32:46.958 [main] INFO  com.angelbroking.smartapi.http.SmartAPIRequestHandler - headers : {"sourceID":"WEB","clientPublicIP":"103.87.165.35","macAddress":"50-2B-73-E5-D9-5A","userType":"USER","clientLocalIP":"192.168.1.102","accept":"application/json"}
+23:32:47.042 [main] INFO  com.angelbroking.smartapi.http.SmartAPIResponseHandler - ***************************
+23:32:47.381 [main] INFO  com.appdevclaymaster.downloadnsehistoricaldata.DownloadNSEHistoricalData - Fetching data for BAJAJFINSV from 2024-04-01 to 2024-04-30
+23:32:47.476 [main] INFO  com.angelbroking.smartapi.http.SmartAPIRequestHandler - headers : {"sourceID":"WEB","clientPublicIP":"103.87.165.35","macAddress":"50-2B-73-E5-D9-5A","userType":"USER","clientLocalIP":"192.168.1.102","accept":"application/json"}
+23:32:47.558 [main] INFO  com.angelbroking.smartapi.http.SmartAPIResponseHandler - ***************************
+23:32:47.896 [main] INFO  com.appdevclaymaster.downloadnsehistoricaldata.DownloadNSEHistoricalData - Fetching data for BAJAJFINSV from 2024-05-01 to 2024-05-31
+23:32:47.994 [main] INFO  com.angelbroking.smartapi.http.SmartAPIRequestHandler - headers : {"sourceID":"WEB","clientPublicIP":"103.87.165.35","macAddress":"50-2B-73-E5-D9-5A","userType":"USER","clientLocalIP":"192.168.1.102","accept":"application/json"}
+23:32:48.145 [main] INFO  com.angelbroking.smartapi.http.SmartAPIResponseHandler - ***************************
+23:32:48.485 [main] INFO  com.appdevclaymaster.downloadnsehistoricaldata.DownloadNSEHistoricalData - Fetching data for BAJAJFINSV from 2024-06-01 to 2024-06-30
+23:32:48.578 [main] INFO  com.angelbroking.smartapi.http.SmartAPIRequestHandler - headers : {"sourceID":"WEB","clientPublicIP":"103.87.165.35","macAddress":"50-2B-73-E5-D9-5A","userType":"USER","clientLocalIP":"192.168.1.102","accept":"application/json"}
+23:32:48.663 [main] INFO  com.angelbroking.smartapi.http.SmartAPIResponseHandler - ***************************
+23:32:49.001 [main] INFO  com.appdevclaymaster.downloadnsehistoricaldata.DownloadNSEHistoricalData - Fetching data for BAJAJFINSV from 2024-07-01 to 2024-07-31
+23:32:49.099 [main] INFO  com.angelbroking.smartapi.http.SmartAPIRequestHandler - headers : {"sourceID":"WEB","clientPublicIP":"103.87.165.35","macAddress":"50-2B-73-E5-D9-5A","userType":"USER","clientLocalIP":"192.168.1.102","accept":"application/json"}
+23:32:49.184 [main] INFO  com.angelbroking.smartapi.http.SmartAPIResponseHandler - ***************************
+23:32:49.523 [main] INFO  com.appdevclaymaster.downloadnsehistoricaldata.DownloadNSEHistoricalData - Fetching data for BAJAJFINSV from 2024-08-01 to 2024-08-31
+23:32:49.616 [main] INFO  com.angelbroking.smartapi.http.SmartAPIRequestHandler - headers : {"sourceID":"WEB","clientPublicIP":"103.87.165.35","macAddress":"50-2B-73-E5-D9-5A","userType":"USER","clientLocalIP":"192.168.1.102","accept":"application/json"}
+23:32:49.705 [main] INFO  com.angelbroking.smartapi.http.SmartAPIResponseHandler - ***************************
+23:32:50.045 [main] INFO  com.appdevclaymaster.downloadnsehistoricaldata.DownloadNSEHistoricalData - Fetching data for BAJAJFINSV from 2024-09-01 to 2024-09-30
+23:32:50.390 [main] INFO  com.angelbroking.smartapi.http.SmartAPIRequestHandler - headers : {"sourceID":"WEB","clientPublicIP":"103.87.165.35","macAddress":"50-2B-73-E5-D9-5A","userType":"USER","clientLocalIP":"192.168.1.102","accept":"application/json"}
+23:32:50.475 [main] INFO  com.angelbroking.smartapi.http.SmartAPIResponseHandler - ***************************
+23:32:50.814 [main] INFO  com.appdevclaymaster.downloadnsehistoricaldata.DownloadNSEHistoricalData - Fetching data for BAJAJFINSV from 2024-10-01 to 2024-10-16
+23:32:50.908 [main] INFO  com.angelbroking.smartapi.http.SmartAPIRequestHandler - headers : {"sourceID":"WEB","clientPublicIP":"103.87.165.35","macAddress":"50-2B-73-E5-D9-5A","userType":"USER","clientLocalIP":"192.168.1.102","accept":"application/json"}
+23:32:52.014 [main] INFO  com.angelbroking.smartapi.http.SmartAPIResponseHandler - ***************************
+23:32:52.354 [main] INFO  com.appdevclaymaster.downloadnsehistoricaldata.DownloadNSEHistoricalData - Fetching data for BAJFINANCE from 2024-01-01 to 2024-01-31
+23:32:52.700 [main] INFO  com.angelbroking.smartapi.http.SmartAPIRequestHandler - headers : {"sourceID":"WEB","clientPublicIP":"103.87.165.35","macAddress":"50-2B-73-E5-D9-5A","userType":"USER","clientLocalIP":"192.168.1.102","accept":"application/json"}
+23:32:52.779 [main] INFO  com.angelbroking.smartapi.http.SmartAPIResponseHandler - ***************************
+23:32:53.118 [main] INFO  com.appdevclaymaster.downloadnsehistoricaldata.DownloadNSEHistoricalData - Fetching data for BAJFINANCE from 2024-02-01 to 2024-02-29
+23:32:53.491 [main] INFO  com.angelbroking.smartapi.http.SmartAPIRequestHandler - headers : {"sourceID":"WEB","clientPublicIP":"103.87.165.35","macAddress":"50-2B-73-E5-D9-5A","userType":"USER","clientLocalIP":"192.168.1.102","accept":"application/json"}
+23:32:54.574 [main] INFO  com.angelbroking.smartapi.http.SmartAPIResponseHandler - ***************************
+23:32:54.911 [main] INFO  com.appdevclaymaster.downloadnsehistoricaldata.DownloadNSEHistoricalData - Fetching data for BAJFINANCE from 2024-03-01 to 2024-03-31
+23:32:55.009 [main] INFO  com.angelbroking.smartapi.http.SmartAPIRequestHandler - headers : {"sourceID":"WEB","clientPublicIP":"103.87.165.35","macAddress":"50-2B-73-E5-D9-5A","userType":"USER","clientLocalIP":"192.168.1.102","accept":"application/json"}
+23:32:55.102 [main] INFO  com.angelbroking.smartapi.http.SmartAPIResponseHandler - ***************************
+23:32:55.441 [main] INFO  com.appdevclaymaster.downloadnsehistoricaldata.DownloadNSEHistoricalData - Fetching data for BAJFINANCE from 2024-04-01 to 2024-04-30
+23:32:55.538 [main] INFO  com.angelbroking.smartapi.http.SmartAPIRequestHandler - headers : {"sourceID":"WEB","clientPublicIP":"103.87.165.35","macAddress":"50-2B-73-E5-D9-5A","userType":"USER","clientLocalIP":"192.168.1.102","accept":"application/json"}
+23:32:55.642 [main] INFO  com.angelbroking.smartapi.http.SmartAPIResponseHandler - ***************************
+23:32:55.985 [main] INFO  com.appdevclaymaster.downloadnsehistoricaldata.DownloadNSEHistoricalData - Fetching data for BAJFINANCE from 2024-05-01 to 2024-05-31
+23:32:56.073 [main] INFO  com.angelbroking.smartapi.http.SmartAPIRequestHandler - headers : {"sourceID":"WEB","clientPublicIP":"103.87.165.35","macAddress":"50-2B-73-E5-D9-5A","userType":"USER","clientLocalIP":"192.168.1.102","accept":"application/json"}
+23:32:56.190 [main] INFO  com.angelbroking.smartapi.http.SmartAPIResponseHandler - ***************************
+23:32:56.527 [main] INFO  com.appdevclaymaster.downloadnsehistoricaldata.DownloadNSEHistoricalData - Fetching data for BAJFINANCE from 2024-06-01 to 2024-06-30
+23:32:56.621 [main] INFO  com.angelbroking.smartapi.http.SmartAPIRequestHandler - headers : {"sourceID":"WEB","clientPublicIP":"103.87.165.35","macAddress":"50-2B-73-E5-D9-5A","userType":"USER","clientLocalIP":"192.168.1.102","accept":"application/json"}
+23:32:56.712 [main] INFO  com.angelbroking.smartapi.http.SmartAPIResponseHandler - ***************************
+23:32:57.051 [main] INFO  com.appdevclaymaster.downloadnsehistoricaldata.DownloadNSEHistoricalData - Fetching data for BAJFINANCE from 2024-07-01 to 2024-07-31
+23:32:57.144 [main] INFO  com.angelbroking.smartapi.http.SmartAPIRequestHandler - headers : {"sourceID":"WEB","clientPublicIP":"103.87.165.35","macAddress":"50-2B-73-E5-D9-5A","userType":"USER","clientLocalIP":"192.168.1.102","accept":"application/json"}
+23:32:57.232 [main] INFO  com.angelbroking.smartapi.http.SmartAPIResponseHandler - ***************************
+23:32:57.571 [main] INFO  com.appdevclaymaster.downloadnsehistoricaldata.DownloadNSEHistoricalData - Fetching data for BAJFINANCE from 2024-08-01 to 2024-08-31
+23:32:57.666 [main] INFO  com.angelbroking.smartapi.http.SmartAPIRequestHandler - headers : {"sourceID":"WEB","clientPublicIP":"103.87.165.35","macAddress":"50-2B-73-E5-D9-5A","userType":"USER","clientLocalIP":"192.168.1.102","accept":"application/json"}
+23:33:04.104 [main] INFO  com.angelbroking.smartapi.http.SmartAPIResponseHandler - ***************************
+23:33:04.443 [main] INFO  com.appdevclaymaster.downloadnsehistoricaldata.DownloadNSEHistoricalData - Fetching data for BAJFINANCE from 2024-09-01 to 2024-09-30
+23:33:04.614 [main] INFO  com.angelbroking.smartapi.http.SmartAPIRequestHandler - headers : {"sourceID":"WEB","clientPublicIP":"103.87.165.35","macAddress":"50-2B-73-E5-D9-5A","userType":"USER","clientLocalIP":"192.168.1.102","accept":"application/json"}
+23:33:04.713 [main] INFO  com.angelbroking.smartapi.http.SmartAPIResponseHandler - ***************************
+23:33:05.052 [main] INFO  com.appdevclaymaster.downloadnsehistoricaldata.DownloadNSEHistoricalData - Fetching data for BAJFINANCE from 2024-10-01 to 2024-10-16
+23:33:05.149 [main] INFO  com.angelbroking.smartapi.http.SmartAPIRequestHandler - headers : {"sourceID":"WEB","clientPublicIP":"103.87.165.35","macAddress":"50-2B-73-E5-D9-5A","userType":"USER","clientLocalIP":"192.168.1.102","accept":"application/json"}
+23:33:05.236 [main] INFO  com.angelbroking.smartapi.http.SmartAPIResponseHandler - ***************************
+23:33:05.576 [main] INFO  com.appdevclaymaster.downloadnsehistoricaldata.DownloadNSEHistoricalData - Fetching data for BALKRISIND from 2024-01-01 to 2024-01-31
+23:33:05.674 [main] INFO  com.angelbroking.smartapi.http.SmartAPIRequestHandler - headers : {"sourceID":"WEB","clientPublicIP":"103.87.165.35","macAddress":"50-2B-73-E5-D9-5A","userType":"USER","clientLocalIP":"192.168.1.102","accept":"application/json"}
+23:33:05.822 [main] INFO  com.angelbroking.smartapi.http.SmartAPIResponseHandler - ***************************
+23:33:06.161 [main] INFO  com.appdevclaymaster.downloadnsehistoricaldata.DownloadNSEHistoricalData - Fetching data for BALKRISIND from 2024-02-01 to 2024-02-29
+23:33:06.261 [main] INFO  com.angelbroking.smartapi.http.SmartAPIRequestHandler - headers : {"sourceID":"WEB","clientPublicIP":"103.87.165.35","macAddress":"50-2B-73-E5-D9-5A","userType":"USER","clientLocalIP":"192.168.1.102","accept":"application/json"}
+23:33:06.361 [main] INFO  com.angelbroking.smartapi.http.SmartAPIResponseHandler - ***************************
+23:33:06.702 [main] INFO  com.appdevclaymaster.downloadnsehistoricaldata.DownloadNSEHistoricalData - Fetching data for BALKRISIND from 2024-03-01 to 2024-03-31
+23:33:07.034 [main] INFO  com.angelbroking.smartapi.http.SmartAPIRequestHandler - headers : {"sourceID":"WEB","clientPublicIP":"103.87.165.35","macAddress":"50-2B-73-E5-D9-5A","userType":"USER","clientLocalIP":"192.168.1.102","accept":"application/json"}
+23:33:07.147 [main] INFO  com.angelbroking.smartapi.http.SmartAPIResponseHandler - ***************************
+23:33:07.489 [main] INFO  com.appdevclaymaster.downloadnsehistoricaldata.DownloadNSEHistoricalData - Fetching data for BALKRISIND from 2024-04-01 to 2024-04-30
+23:33:07.587 [main] INFO  com.angelbroking.smartapi.http.SmartAPIRequestHandler - headers : {"sourceID":"WEB","clientPublicIP":"103.87.165.35","macAddress":"50-2B-73-E5-D9-5A","userType":"USER","clientLocalIP":"192.168.1.102","accept":"application/json"}
+23:33:07.674 [main] INFO  com.angelbroking.smartapi.http.SmartAPIResponseHandler - ***************************
+23:33:08.014 [main] INFO  com.appdevclaymaster.downloadnsehistoricaldata.DownloadNSEHistoricalData - Fetching data for BALKRISIND from 2024-05-01 to 2024-05-31
+23:33:08.112 [main] INFO  com.angelbroking.smartapi.http.SmartAPIRequestHandler - headers : {"sourceID":"WEB","clientPublicIP":"103.87.165.35","macAddress":"50-2B-73-E5-D9-5A","userType":"USER","clientLocalIP":"192.168.1.102","accept":"application/json"}
+23:33:08.202 [main] INFO  com.angelbroking.smartapi.http.SmartAPIResponseHandler - ***************************
+23:33:08.541 [main] INFO  com.appdevclaymaster.downloadnsehistoricaldata.DownloadNSEHistoricalData - Fetching data for BALKRISIND from 2024-06-01 to 2024-06-30
+23:33:08.644 [main] INFO  com.angelbroking.smartapi.http.SmartAPIRequestHandler - headers : {"sourceID":"WEB","clientPublicIP":"103.87.165.35","macAddress":"50-2B-73-E5-D9-5A","userType":"USER","clientLocalIP":"192.168.1.102","accept":"application/json"}
+23:33:08.738 [main] INFO  com.angelbroking.smartapi.http.SmartAPIResponseHandler - ***************************
+23:33:09.078 [main] INFO  com.appdevclaymaster.downloadnsehistoricaldata.DownloadNSEHistoricalData - Fetching data for BALKRISIND from 2024-07-01 to 2024-07-31
+23:33:09.174 [main] INFO  com.angelbroking.smartapi.http.SmartAPIRequestHandler - headers : {"sourceID":"WEB","clientPublicIP":"103.87.165.35","macAddress":"50-2B-73-E5-D9-5A","userType":"USER","clientLocalIP":"192.168.1.102","accept":"application/json"}
+23:33:09.263 [main] INFO  com.angelbroking.smartapi.http.SmartAPIResponseHandler - ***************************
+23:33:09.601 [main] INFO  com.appdevclaymaster.downloadnsehistoricaldata.DownloadNSEHistoricalData - Fetching data for BALKRISIND from 2024-08-01 to 2024-08-31
+23:33:09.707 [main] INFO  com.angelbroking.smartapi.http.SmartAPIRequestHandler - headers : {"sourceID":"WEB","clientPublicIP":"103.87.165.35","macAddress":"50-2B-73-E5-D9-5A","userType":"USER","clientLocalIP":"192.168.1.102","accept":"application/json"}
+23:33:09.813 [main] INFO  com.angelbroking.smartapi.http.SmartAPIResponseHandler - ***************************
+23:33:10.153 [main] INFO  com.appdevclaymaster.downloadnsehistoricaldata.DownloadNSEHistoricalData - Fetching data for BALKRISIND from 2024-09-01 to 2024-09-30
+23:33:10.248 [main] INFO  com.angelbroking.smartapi.http.SmartAPIRequestHandler - headers : {"sourceID":"WEB","clientPublicIP":"103.87.165.35","macAddress":"50-2B-73-E5-D9-5A","userType":"USER","clientLocalIP":"192.168.1.102","accept":"application/json"}
+23:33:10.395 [main] INFO  com.angelbroking.smartapi.http.SmartAPIResponseHandler - ***************************
+23:33:10.732 [main] INFO  com.appdevclaymaster.downloadnsehistoricaldata.DownloadNSEHistoricalData - Fetching data for BALKRISIND from 2024-10-01 to 2024-10-16
+23:33:10.833 [main] INFO  com.angelbroking.smartapi.http.SmartAPIRequestHandler - headers : {"sourceID":"WEB","clientPublicIP":"103.87.165.35","macAddress":"50-2B-73-E5-D9-5A","userType":"USER","clientLocalIP":"192.168.1.102","accept":"application/json"}
+23:33:10.922 [main] INFO  com.angelbroking.smartapi.http.SmartAPIResponseHandler - ***************************
+23:33:11.261 [main] INFO  com.appdevclaymaster.downloadnsehistoricaldata.DownloadNSEHistoricalData - Fetching data for BALRAMCHIN from 2024-01-01 to 2024-01-31
+23:33:11.358 [main] INFO  com.angelbroking.smartapi.http.SmartAPIRequestHandler - headers : {"sourceID":"WEB","clientPublicIP":"103.87.165.35","macAddress":"50-2B-73-E5-D9-5A","userType":"USER","clientLocalIP":"192.168.1.102","accept":"application/json"}
+23:33:11.443 [main] INFO  com.angelbroking.smartapi.http.SmartAPIResponseHandler - ***************************
+23:33:11.783 [main] INFO  com.appdevclaymaster.downloadnsehistoricaldata.DownloadNSEHistoricalData - Fetching data for BALRAMCHIN from 2024-02-01 to 2024-02-29
+23:33:11.880 [main] INFO  com.angelbroking.smartapi.http.SmartAPIRequestHandler - headers : {"sourceID":"WEB","clientPublicIP":"103.87.165.35","macAddress":"50-2B-73-E5-D9-5A","userType":"USER","clientLocalIP":"192.168.1.102","accept":"application/json"}
+23:33:11.972 [main] INFO  com.angelbroking.smartapi.http.SmartAPIResponseHandler - ***************************
+23:33:12.312 [main] INFO  com.appdevclaymaster.downloadnsehistoricaldata.DownloadNSEHistoricalData - Fetching data for BALRAMCHIN from 2024-03-01 to 2024-03-31
+23:33:12.408 [main] INFO  com.angelbroking.smartapi.http.SmartAPIRequestHandler - headers : {"sourceID":"WEB","clientPublicIP":"103.87.165.35","macAddress":"50-2B-73-E5-D9-5A","userType":"USER","clientLocalIP":"192.168.1.102","accept":"application/json"}
+23:33:12.497 [main] INFO  com.angelbroking.smartapi.http.SmartAPIResponseHandler - ***************************
+23:33:12.835 [main] INFO  com.appdevclaymaster.downloadnsehistoricaldata.DownloadNSEHistoricalData - Fetching data for BALRAMCHIN from 2024-04-01 to 2024-04-30
+23:33:12.936 [main] INFO  com.angelbroking.smartapi.http.SmartAPIRequestHandler - headers : {"sourceID":"WEB","clientPublicIP":"103.87.165.35","macAddress":"50-2B-73-E5-D9-5A","userType":"USER","clientLocalIP":"192.168.1.102","accept":"application/json"}
+23:33:13.020 [main] INFO  com.angelbroking.smartapi.http.SmartAPIResponseHandler - ***************************
+23:33:13.359 [main] INFO  com.appdevclaymaster.downloadnsehistoricaldata.DownloadNSEHistoricalData - Fetching data for BALRAMCHIN from 2024-05-01 to 2024-05-31
+23:33:13.452 [main] INFO  com.angelbroking.smartapi.http.SmartAPIRequestHandler - headers : {"sourceID":"WEB","clientPublicIP":"103.87.165.35","macAddress":"50-2B-73-E5-D9-5A","userType":"USER","clientLocalIP":"192.168.1.102","accept":"application/json"}
+23:33:13.535 [main] INFO  com.angelbroking.smartapi.http.SmartAPIResponseHandler - ***************************
+23:33:13.873 [main] INFO  com.appdevclaymaster.downloadnsehistoricaldata.DownloadNSEHistoricalData - Fetching data for BALRAMCHIN from 2024-06-01 to 2024-06-30
+23:33:13.977 [main] INFO  com.angelbroking.smartapi.http.SmartAPIRequestHandler - headers : {"sourceID":"WEB","clientPublicIP":"103.87.165.35","macAddress":"50-2B-73-E5-D9-5A","userType":"USER","clientLocalIP":"192.168.1.102","accept":"application/json"}
+23:33:14.069 [main] INFO  com.angelbroking.smartapi.http.SmartAPIResponseHandler - ***************************
+23:33:14.409 [main] INFO  com.appdevclaymaster.downloadnsehistoricaldata.DownloadNSEHistoricalData - Fetching data for BALRAMCHIN from 2024-07-01 to 2024-07-31
+23:33:14.506 [main] INFO  com.angelbroking.smartapi.http.SmartAPIRequestHandler - headers : {"sourceID":"WEB","clientPublicIP":"103.87.165.35","macAddress":"50-2B-73-E5-D9-5A","userType":"USER","clientLocalIP":"192.168.1.102","accept":"application/json"}
+23:33:14.616 [main] INFO  com.angelbroking.smartapi.http.SmartAPIResponseHandler - ***************************
+23:33:14.955 [main] INFO  com.appdevclaymaster.downloadnsehistoricaldata.DownloadNSEHistoricalData - Fetching data for BALRAMCHIN from 2024-08-01 to 2024-08-31
+23:33:15.052 [main] INFO  com.angelbroking.smartapi.http.SmartAPIRequestHandler - headers : {"sourceID":"WEB","clientPublicIP":"103.87.165.35","macAddress":"50-2B-73-E5-D9-5A","userType":"USER","clientLocalIP":"192.168.1.102","accept":"application/json"}
+23:33:15.129 [main] INFO  com.angelbroking.smartapi.http.SmartAPIResponseHandler - ***************************
+23:33:15.468 [main] INFO  com.appdevclaymaster.downloadnsehistoricaldata.DownloadNSEHistoricalData - Fetching data for BALRAMCHIN from 2024-09-01 to 2024-09-30
+23:33:15.564 [main] INFO  com.angelbroking.smartapi.http.SmartAPIRequestHandler - headers : {"sourceID":"WEB","clientPublicIP":"103.87.165.35","macAddress":"50-2B-73-E5-D9-5A","userType":"USER","clientLocalIP":"192.168.1.102","accept":"application/json"}
+23:33:15.653 [main] INFO  com.angelbroking.smartapi.http.SmartAPIResponseHandler - ***************************
+23:33:15.993 [main] INFO  com.appdevclaymaster.downloadnsehistoricaldata.DownloadNSEHistoricalData - Fetching data for BALRAMCHIN from 2024-10-01 to 2024-10-16
+23:33:16.351 [main] INFO  com.angelbroking.smartapi.http.SmartAPIRequestHandler - headers : {"sourceID":"WEB","clientPublicIP":"103.87.165.35","macAddress":"50-2B-73-E5-D9-5A","userType":"USER","clientLocalIP":"192.168.1.102","accept":"application/json"}
+23:33:16.441 [main] INFO  com.angelbroking.smartapi.http.SmartAPIResponseHandler - ***************************
+23:33:16.781 [main] INFO  com.appdevclaymaster.downloadnsehistoricaldata.DownloadNSEHistoricalData - Fetching data for BANDHANBNK from 2024-01-01 to 2024-01-31
+23:33:16.889 [main] INFO  com.angelbroking.smartapi.http.SmartAPIRequestHandler - headers : {"sourceID":"WEB","clientPublicIP":"103.87.165.35","macAddress":"50-2B-73-E5-D9-5A","userType":"USER","clientLocalIP":"192.168.1.102","accept":"application/json"}
+23:33:17.011 [main] INFO  com.angelbroking.smartapi.http.SmartAPIResponseHandler - ***************************
+23:33:17.351 [main] INFO  com.appdevclaymaster.downloadnsehistoricaldata.DownloadNSEHistoricalData - Fetching data for BANDHANBNK from 2024-02-01 to 2024-02-29
+23:33:17.447 [main] INFO  com.angelbroking.smartapi.http.SmartAPIRequestHandler - headers : {"sourceID":"WEB","clientPublicIP":"103.87.165.35","macAddress":"50-2B-73-E5-D9-5A","userType":"USER","clientLocalIP":"192.168.1.102","accept":"application/json"}
+23:33:17.551 [main] INFO  com.angelbroking.smartapi.http.SmartAPIResponseHandler - ***************************
+23:33:17.889 [main] INFO  com.appdevclaymaster.downloadnsehistoricaldata.DownloadNSEHistoricalData - Fetching data for BANDHANBNK from 2024-03-01 to 2024-03-31
+23:33:17.993 [main] INFO  com.angelbroking.smartapi.http.SmartAPIRequestHandler - headers : {"sourceID":"WEB","clientPublicIP":"103.87.165.35","macAddress":"50-2B-73-E5-D9-5A","userType":"USER","clientLocalIP":"192.168.1.102","accept":"application/json"}
+23:33:18.101 [main] INFO  com.angelbroking.smartapi.http.SmartAPIResponseHandler - ***************************
+23:33:18.444 [main] INFO  com.appdevclaymaster.downloadnsehistoricaldata.DownloadNSEHistoricalData - Fetching data for BANDHANBNK from 2024-04-01 to 2024-04-30
+23:33:18.540 [main] INFO  com.angelbroking.smartapi.http.SmartAPIRequestHandler - headers : {"sourceID":"WEB","clientPublicIP":"103.87.165.35","macAddress":"50-2B-73-E5-D9-5A","userType":"USER","clientLocalIP":"192.168.1.102","accept":"application/json"}
+23:33:18.619 [main] INFO  com.angelbroking.smartapi.http.SmartAPIResponseHandler - ***************************
+23:33:18.958 [main] INFO  com.appdevclaymaster.downloadnsehistoricaldata.DownloadNSEHistoricalData - Fetching data for BANDHANBNK from 2024-05-01 to 2024-05-31
+23:33:19.063 [main] INFO  com.angelbroking.smartapi.http.SmartAPIRequestHandler - headers : {"sourceID":"WEB","clientPublicIP":"103.87.165.35","macAddress":"50-2B-73-E5-D9-5A","userType":"USER","clientLocalIP":"192.168.1.102","accept":"application/json"}
+23:33:19.220 [main] INFO  com.angelbroking.smartapi.http.SmartAPIResponseHandler - ***************************
+23:33:19.559 [main] INFO  com.appdevclaymaster.downloadnsehistoricaldata.DownloadNSEHistoricalData - Fetching data for BANDHANBNK from 2024-06-01 to 2024-06-30
+23:33:19.655 [main] INFO  com.angelbroking.smartapi.http.SmartAPIRequestHandler - headers : {"sourceID":"WEB","clientPublicIP":"103.87.165.35","macAddress":"50-2B-73-E5-D9-5A","userType":"USER","clientLocalIP":"192.168.1.102","accept":"application/json"}
+23:33:19.765 [main] INFO  com.angelbroking.smartapi.http.SmartAPIResponseHandler - ***************************
+23:33:20.105 [main] INFO  com.appdevclaymaster.downloadnsehistoricaldata.DownloadNSEHistoricalData - Fetching data for BANDHANBNK from 2024-07-01 to 2024-07-31
+23:33:20.207 [main] INFO  com.angelbroking.smartapi.http.SmartAPIRequestHandler - headers : {"sourceID":"WEB","clientPublicIP":"103.87.165.35","macAddress":"50-2B-73-E5-D9-5A","userType":"USER","clientLocalIP":"192.168.1.102","accept":"application/json"}
+23:33:20.290 [main] INFO  com.angelbroking.smartapi.http.SmartAPIResponseHandler - ***************************
+23:33:20.628 [main] INFO  com.appdevclaymaster.downloadnsehistoricaldata.DownloadNSEHistoricalData - Fetching data for BANDHANBNK from 2024-08-01 to 2024-08-31
+23:33:20.733 [main] INFO  com.angelbroking.smartapi.http.SmartAPIRequestHandler - headers : {"sourceID":"WEB","clientPublicIP":"103.87.165.35","macAddress":"50-2B-73-E5-D9-5A","userType":"USER","clientLocalIP":"192.168.1.102","accept":"application/json"}
+23:33:20.855 [main] INFO  com.angelbroking.smartapi.http.SmartAPIResponseHandler - ***************************
+23:33:21.194 [main] INFO  com.appdevclaymaster.downloadnsehistoricaldata.DownloadNSEHistoricalData - Fetching data for BANDHANBNK from 2024-09-01 to 2024-09-30
+23:33:21.551 [main] INFO  com.angelbroking.smartapi.http.SmartAPIRequestHandler - headers : {"sourceID":"WEB","clientPublicIP":"103.87.165.35","macAddress":"50-2B-73-E5-D9-5A","userType":"USER","clientLocalIP":"192.168.1.102","accept":"application/json"}
+23:33:21.651 [main] INFO  com.angelbroking.smartapi.http.SmartAPIResponseHandler - ***************************
+23:33:21.989 [main] INFO  com.appdevclaymaster.downloadnsehistoricaldata.DownloadNSEHistoricalData - Fetching data for BANDHANBNK from 2024-10-01 to 2024-10-16
+23:33:22.087 [main] INFO  com.angelbroking.smartapi.http.SmartAPIRequestHandler - headers : {"sourceID":"WEB","clientPublicIP":"103.87.165.35","macAddress":"50-2B-73-E5-D9-5A","userType":"USER","clientLocalIP":"192.168.1.102","accept":"application/json"}
+23:33:22.190 [main] INFO  com.angelbroking.smartapi.http.SmartAPIResponseHandler - ***************************
+23:33:22.530 [main] INFO  com.appdevclaymaster.downloadnsehistoricaldata.DownloadNSEHistoricalData - Fetching data for BANKBARODA from 2024-01-01 to 2024-01-31
+23:33:22.625 [main] INFO  com.angelbroking.smartapi.http.SmartAPIRequestHandler - headers : {"sourceID":"WEB","clientPublicIP":"103.87.165.35","macAddress":"50-2B-73-E5-D9-5A","userType":"USER","clientLocalIP":"192.168.1.102","accept":"application/json"}
+23:33:22.726 [main] INFO  com.angelbroking.smartapi.http.SmartAPIResponseHandler - ***************************
+23:33:23.065 [main] INFO  com.appdevclaymaster.downloadnsehistoricaldata.DownloadNSEHistoricalData - Fetching data for BANKBARODA from 2024-02-01 to 2024-02-29
+23:33:23.161 [main] INFO  com.angelbroking.smartapi.http.SmartAPIRequestHandler - headers : {"sourceID":"WEB","clientPublicIP":"103.87.165.35","macAddress":"50-2B-73-E5-D9-5A","userType":"USER","clientLocalIP":"192.168.1.102","accept":"application/json"}
+23:33:23.252 [main] INFO  com.angelbroking.smartapi.http.SmartAPIResponseHandler - ***************************
+23:33:23.593 [main] INFO  com.appdevclaymaster.downloadnsehistoricaldata.DownloadNSEHistoricalData - Fetching data for BANKBARODA from 2024-03-01 to 2024-03-31
+23:33:23.690 [main] INFO  com.angelbroking.smartapi.http.SmartAPIRequestHandler - headers : {"sourceID":"WEB","clientPublicIP":"103.87.165.35","macAddress":"50-2B-73-E5-D9-5A","userType":"USER","clientLocalIP":"192.168.1.102","accept":"application/json"}
+23:33:23.787 [main] INFO  com.angelbroking.smartapi.http.SmartAPIResponseHandler - ***************************
+23:33:24.126 [main] INFO  com.appdevclaymaster.downloadnsehistoricaldata.DownloadNSEHistoricalData - Fetching data for BANKBARODA from 2024-04-01 to 2024-04-30
+23:33:24.227 [main] INFO  com.angelbroking.smartapi.http.SmartAPIRequestHandler - headers : {"sourceID":"WEB","clientPublicIP":"103.87.165.35","macAddress":"50-2B-73-E5-D9-5A","userType":"USER","clientLocalIP":"192.168.1.102","accept":"application/json"}
+23:33:24.323 [main] INFO  com.angelbroking.smartapi.http.SmartAPIResponseHandler - ***************************
+23:33:24.662 [main] INFO  com.appdevclaymaster.downloadnsehistoricaldata.DownloadNSEHistoricalData - Fetching data for BANKBARODA from 2024-05-01 to 2024-05-31
+23:33:24.771 [main] INFO  com.angelbroking.smartapi.http.SmartAPIRequestHandler - headers : {"sourceID":"WEB","clientPublicIP":"103.87.165.35","macAddress":"50-2B-73-E5-D9-5A","userType":"USER","clientLocalIP":"192.168.1.102","accept":"application/json"}
+23:33:24.866 [main] INFO  com.angelbroking.smartapi.http.SmartAPIResponseHandler - ***************************
+23:33:25.206 [main] INFO  com.appdevclaymaster.downloadnsehistoricaldata.DownloadNSEHistoricalData - Fetching data for BANKBARODA from 2024-06-01 to 2024-06-30
+23:33:25.304 [main] INFO  com.angelbroking.smartapi.http.SmartAPIRequestHandler - headers : {"sourceID":"WEB","clientPublicIP":"103.87.165.35","macAddress":"50-2B-73-E5-D9-5A","userType":"USER","clientLocalIP":"192.168.1.102","accept":"application/json"}
+23:33:25.393 [main] INFO  com.angelbroking.smartapi.http.SmartAPIResponseHandler - ***************************
+23:33:25.735 [main] INFO  com.appdevclaymaster.downloadnsehistoricaldata.DownloadNSEHistoricalData - Fetching data for BANKBARODA from 2024-07-01 to 2024-07-31
+23:33:25.842 [main] INFO  com.angelbroking.smartapi.http.SmartAPIRequestHandler - headers : {"sourceID":"WEB","clientPublicIP":"103.87.165.35","macAddress":"50-2B-73-E5-D9-5A","userType":"USER","clientLocalIP":"192.168.1.102","accept":"application/json"}
+23:33:25.938 [main] INFO  com.angelbroking.smartapi.http.SmartAPIResponseHandler - ***************************
+23:33:26.278 [main] INFO  com.appdevclaymaster.downloadnsehistoricaldata.DownloadNSEHistoricalData - Fetching data for BANKBARODA from 2024-08-01 to 2024-08-31
+23:33:26.375 [main] INFO  com.angelbroking.smartapi.http.SmartAPIRequestHandler - headers : {"sourceID":"WEB","clientPublicIP":"103.87.165.35","macAddress":"50-2B-73-E5-D9-5A","userType":"USER","clientLocalIP":"192.168.1.102","accept":"application/json"}
+23:33:26.459 [main] INFO  com.angelbroking.smartapi.http.SmartAPIResponseHandler - ***************************
+23:33:26.798 [main] INFO  com.appdevclaymaster.downloadnsehistoricaldata.DownloadNSEHistoricalData - Fetching data for BANKBARODA from 2024-09-01 to 2024-09-30
+23:33:26.897 [main] INFO  com.angelbroking.smartapi.http.SmartAPIRequestHandler - headers : {"sourceID":"WEB","clientPublicIP":"103.87.165.35","macAddress":"50-2B-73-E5-D9-5A","userType":"USER","clientLocalIP":"192.168.1.102","accept":"application/json"}
+23:33:26.985 [main] INFO  com.angelbroking.smartapi.http.SmartAPIResponseHandler - ***************************
+23:33:27.325 [main] INFO  com.appdevclaymaster.downloadnsehistoricaldata.DownloadNSEHistoricalData - Fetching data for BANKBARODA from 2024-10-01 to 2024-10-16
+23:33:27.425 [main] INFO  com.angelbroking.smartapi.http.SmartAPIRequestHandler - headers : {"sourceID":"WEB","clientPublicIP":"103.87.165.35","macAddress":"50-2B-73-E5-D9-5A","userType":"USER","clientLocalIP":"192.168.1.102","accept":"application/json"}
+23:33:27.512 [main] INFO  com.angelbroking.smartapi.http.SmartAPIResponseHandler - ***************************
+23:33:27.851 [main] INFO  com.appdevclaymaster.downloadnsehistoricaldata.DownloadNSEHistoricalData - Fetching data for BATAINDIA from 2024-01-01 to 2024-01-31
+23:33:27.950 [main] INFO  com.angelbroking.smartapi.http.SmartAPIRequestHandler - headers : {"sourceID":"WEB","clientPublicIP":"103.87.165.35","macAddress":"50-2B-73-E5-D9-5A","userType":"USER","clientLocalIP":"192.168.1.102","accept":"application/json"}
+23:33:28.049 [main] INFO  com.angelbroking.smartapi.http.SmartAPIResponseHandler - ***************************
+23:33:28.390 [main] INFO  com.appdevclaymaster.downloadnsehistoricaldata.DownloadNSEHistoricalData - Fetching data for BATAINDIA from 2024-02-01 to 2024-02-29
+23:33:28.486 [main] INFO  com.angelbroking.smartapi.http.SmartAPIRequestHandler - headers : {"sourceID":"WEB","clientPublicIP":"103.87.165.35","macAddress":"50-2B-73-E5-D9-5A","userType":"USER","clientLocalIP":"192.168.1.102","accept":"application/json"}
+23:33:28.609 [main] INFO  com.angelbroking.smartapi.http.SmartAPIResponseHandler - ***************************
+23:33:28.947 [main] INFO  com.appdevclaymaster.downloadnsehistoricaldata.DownloadNSEHistoricalData - Fetching data for BATAINDIA from 2024-03-01 to 2024-03-31
+23:33:29.049 [main] INFO  com.angelbroking.smartapi.http.SmartAPIRequestHandler - headers : {"sourceID":"WEB","clientPublicIP":"103.87.165.35","macAddress":"50-2B-73-E5-D9-5A","userType":"USER","clientLocalIP":"192.168.1.102","accept":"application/json"}
+23:33:29.156 [main] INFO  com.angelbroking.smartapi.http.SmartAPIResponseHandler - ***************************
+23:33:29.495 [main] INFO  com.appdevclaymaster.downloadnsehistoricaldata.DownloadNSEHistoricalData - Fetching data for BATAINDIA from 2024-04-01 to 2024-04-30
+23:33:29.595 [main] INFO  com.angelbroking.smartapi.http.SmartAPIRequestHandler - headers : {"sourceID":"WEB","clientPublicIP":"103.87.165.35","macAddress":"50-2B-73-E5-D9-5A","userType":"USER","clientLocalIP":"192.168.1.102","accept":"application/json"}
+23:33:29.703 [main] INFO  com.angelbroking.smartapi.http.SmartAPIResponseHandler - ***************************
+23:33:30.044 [main] INFO  com.appdevclaymaster.downloadnsehistoricaldata.DownloadNSEHistoricalData - Fetching data for BATAINDIA from 2024-05-01 to 2024-05-31
+23:33:30.144 [main] INFO  com.angelbroking.smartapi.http.SmartAPIRequestHandler - headers : {"sourceID":"WEB","clientPublicIP":"103.87.165.35","macAddress":"50-2B-73-E5-D9-5A","userType":"USER","clientLocalIP":"192.168.1.102","accept":"application/json"}
+23:33:30.259 [main] INFO  com.angelbroking.smartapi.http.SmartAPIResponseHandler - ***************************
+23:33:30.598 [main] INFO  com.appdevclaymaster.downloadnsehistoricaldata.DownloadNSEHistoricalData - Fetching data for BATAINDIA from 2024-06-01 to 2024-06-30
+23:33:30.691 [main] INFO  com.angelbroking.smartapi.http.SmartAPIRequestHandler - headers : {"sourceID":"WEB","clientPublicIP":"103.87.165.35","macAddress":"50-2B-73-E5-D9-5A","userType":"USER","clientLocalIP":"192.168.1.102","accept":"application/json"}
+23:33:30.797 [main] INFO  com.angelbroking.smartapi.http.SmartAPIResponseHandler - ***************************
+23:33:31.138 [main] INFO  com.appdevclaymaster.downloadnsehistoricaldata.DownloadNSEHistoricalData - Fetching data for BATAINDIA from 2024-07-01 to 2024-07-31
+23:33:31.237 [main] INFO  com.angelbroking.smartapi.http.SmartAPIRequestHandler - headers : {"sourceID":"WEB","clientPublicIP":"103.87.165.35","macAddress":"50-2B-73-E5-D9-5A","userType":"USER","clientLocalIP":"192.168.1.102","accept":"application/json"}
+23:33:31.339 [main] INFO  com.angelbroking.smartapi.http.SmartAPIResponseHandler - ***************************
+23:33:31.678 [main] INFO  com.appdevclaymaster.downloadnsehistoricaldata.DownloadNSEHistoricalData - Fetching data for BATAINDIA from 2024-08-01 to 2024-08-31
+23:33:31.778 [main] INFO  com.angelbroking.smartapi.http.SmartAPIRequestHandler - headers : {"sourceID":"WEB","clientPublicIP":"103.87.165.35","macAddress":"50-2B-73-E5-D9-5A","userType":"USER","clientLocalIP":"192.168.1.102","accept":"application/json"}
+23:33:31.863 [main] INFO  com.angelbroking.smartapi.http.SmartAPIResponseHandler - ***************************
+23:33:32.203 [main] INFO  com.appdevclaymaster.downloadnsehistoricaldata.DownloadNSEHistoricalData - Fetching data for BATAINDIA from 2024-09-01 to 2024-09-30
+23:33:32.306 [main] INFO  com.angelbroking.smartapi.http.SmartAPIRequestHandler - headers : {"sourceID":"WEB","clientPublicIP":"103.87.165.35","macAddress":"50-2B-73-E5-D9-5A","userType":"USER","clientLocalIP":"192.168.1.102","accept":"application/json"}
+23:33:32.409 [main] INFO  com.angelbroking.smartapi.http.SmartAPIResponseHandler - ***************************
+23:33:32.748 [main] INFO  com.appdevclaymaster.downloadnsehistoricaldata.DownloadNSEHistoricalData - Fetching data for BATAINDIA from 2024-10-01 to 2024-10-16
+23:33:32.849 [main] INFO  com.angelbroking.smartapi.http.SmartAPIRequestHandler - headers : {"sourceID":"WEB","clientPublicIP":"103.87.165.35","macAddress":"50-2B-73-E5-D9-5A","userType":"USER","clientLocalIP":"192.168.1.102","accept":"application/json"}
+23:33:32.950 [main] INFO  com.angelbroking.smartapi.http.SmartAPIResponseHandler - ***************************
+23:33:33.289 [main] INFO  com.appdevclaymaster.downloadnsehistoricaldata.DownloadNSEHistoricalData - Fetching data for BEL from 2024-01-01 to 2024-01-31
+23:33:33.384 [main] INFO  com.angelbroking.smartapi.http.SmartAPIRequestHandler - headers : {"sourceID":"WEB","clientPublicIP":"103.87.165.35","macAddress":"50-2B-73-E5-D9-5A","userType":"USER","clientLocalIP":"192.168.1.102","accept":"application/json"}
+23:33:34.560 [main] INFO  com.angelbroking.smartapi.http.SmartAPIResponseHandler - ***************************
+23:33:34.900 [main] INFO  com.appdevclaymaster.downloadnsehistoricaldata.DownloadNSEHistoricalData - Fetching data for BEL from 2024-02-01 to 2024-02-29
+23:33:34.998 [main] INFO  com.angelbroking.smartapi.http.SmartAPIRequestHandler - headers : {"sourceID":"WEB","clientPublicIP":"103.87.165.35","macAddress":"50-2B-73-E5-D9-5A","userType":"USER","clientLocalIP":"192.168.1.102","accept":"application/json"}
+23:33:35.089 [main] INFO  com.angelbroking.smartapi.http.SmartAPIResponseHandler - ***************************
+23:33:35.433 [main] INFO  com.appdevclaymaster.downloadnsehistoricaldata.DownloadNSEHistoricalData - Fetching data for BEL from 2024-03-01 to 2024-03-31
+23:33:35.528 [main] INFO  com.angelbroking.smartapi.http.SmartAPIRequestHandler - headers : {"sourceID":"WEB","clientPublicIP":"103.87.165.35","macAddress":"50-2B-73-E5-D9-5A","userType":"USER","clientLocalIP":"192.168.1.102","accept":"application/json"}
+23:33:35.611 [main] INFO  com.angelbroking.smartapi.http.SmartAPIResponseHandler - ***************************
+23:33:35.951 [main] INFO  com.appdevclaymaster.downloadnsehistoricaldata.DownloadNSEHistoricalData - Fetching data for BEL from 2024-04-01 to 2024-04-30
+23:33:36.050 [main] INFO  com.angelbroking.smartapi.http.SmartAPIRequestHandler - headers : {"sourceID":"WEB","clientPublicIP":"103.87.165.35","macAddress":"50-2B-73-E5-D9-5A","userType":"USER","clientLocalIP":"192.168.1.102","accept":"application/json"}
+23:33:36.131 [main] INFO  com.angelbroking.smartapi.http.SmartAPIResponseHandler - ***************************
+23:33:36.472 [main] INFO  com.appdevclaymaster.downloadnsehistoricaldata.DownloadNSEHistoricalData - Fetching data for BEL from 2024-05-01 to 2024-05-31
+23:33:36.567 [main] INFO  com.angelbroking.smartapi.http.SmartAPIRequestHandler - headers : {"sourceID":"WEB","clientPublicIP":"103.87.165.35","macAddress":"50-2B-73-E5-D9-5A","userType":"USER","clientLocalIP":"192.168.1.102","accept":"application/json"}
+23:33:36.661 [main] INFO  com.angelbroking.smartapi.http.SmartAPIResponseHandler - ***************************
+23:33:37.000 [main] INFO  com.appdevclaymaster.downloadnsehistoricaldata.DownloadNSEHistoricalData - Fetching data for BEL from 2024-06-01 to 2024-06-30
+23:33:37.109 [main] INFO  com.angelbroking.smartapi.http.SmartAPIRequestHandler - headers : {"sourceID":"WEB","clientPublicIP":"103.87.165.35","macAddress":"50-2B-73-E5-D9-5A","userType":"USER","clientLocalIP":"192.168.1.102","accept":"application/json"}
+23:33:37.300 [main] INFO  com.angelbroking.smartapi.http.SmartAPIResponseHandler - ***************************
+23:33:37.640 [main] INFO  com.appdevclaymaster.downloadnsehistoricaldata.DownloadNSEHistoricalData - Fetching data for BEL from 2024-07-01 to 2024-07-31
+23:33:37.748 [main] INFO  com.angelbroking.smartapi.http.SmartAPIRequestHandler - headers : {"sourceID":"WEB","clientPublicIP":"103.87.165.35","macAddress":"50-2B-73-E5-D9-5A","userType":"USER","clientLocalIP":"192.168.1.102","accept":"application/json"}
+23:33:37.876 [main] INFO  com.angelbroking.smartapi.http.SmartAPIResponseHandler - ***************************
+23:33:38.213 [main] INFO  com.appdevclaymaster.downloadnsehistoricaldata.DownloadNSEHistoricalData - Fetching data for BEL from 2024-08-01 to 2024-08-31
+23:33:38.313 [main] INFO  com.angelbroking.smartapi.http.SmartAPIRequestHandler - headers : {"sourceID":"WEB","clientPublicIP":"103.87.165.35","macAddress":"50-2B-73-E5-D9-5A","userType":"USER","clientLocalIP":"192.168.1.102","accept":"application/json"}
+23:33:38.391 [main] INFO  com.angelbroking.smartapi.http.SmartAPIResponseHandler - ***************************
+23:33:38.731 [main] INFO  com.appdevclaymaster.downloadnsehistoricaldata.DownloadNSEHistoricalData - Fetching data for BEL from 2024-09-01 to 2024-09-30
+23:33:38.832 [main] INFO  com.angelbroking.smartapi.http.SmartAPIRequestHandler - headers : {"sourceID":"WEB","clientPublicIP":"103.87.165.35","macAddress":"50-2B-73-E5-D9-5A","userType":"USER","clientLocalIP":"192.168.1.102","accept":"application/json"}
+23:33:38.935 [main] INFO  com.angelbroking.smartapi.http.SmartAPIResponseHandler - ***************************
+23:33:39.275 [main] INFO  com.appdevclaymaster.downloadnsehistoricaldata.DownloadNSEHistoricalData - Fetching data for BEL from 2024-10-01 to 2024-10-16
+23:33:39.384 [main] INFO  com.angelbroking.smartapi.http.SmartAPIRequestHandler - headers : {"sourceID":"WEB","clientPublicIP":"103.87.165.35","macAddress":"50-2B-73-E5-D9-5A","userType":"USER","clientLocalIP":"192.168.1.102","accept":"application/json"}
+23:33:39.470 [main] INFO  com.angelbroking.smartapi.http.SmartAPIResponseHandler - ***************************
+23:33:39.809 [main] INFO  com.appdevclaymaster.downloadnsehistoricaldata.DownloadNSEHistoricalData - Fetching data for BERGEPAINT from 2024-01-01 to 2024-01-31
+23:33:39.906 [main] INFO  com.angelbroking.smartapi.http.SmartAPIRequestHandler - headers : {"sourceID":"WEB","clientPublicIP":"103.87.165.35","macAddress":"50-2B-73-E5-D9-5A","userType":"USER","clientLocalIP":"192.168.1.102","accept":"application/json"}
+23:33:40.026 [main] INFO  com.angelbroking.smartapi.http.SmartAPIResponseHandler - ***************************
+23:33:40.367 [main] INFO  com.appdevclaymaster.downloadnsehistoricaldata.DownloadNSEHistoricalData - Fetching data for BERGEPAINT from 2024-02-01 to 2024-02-29
+23:33:40.460 [main] INFO  com.angelbroking.smartapi.http.SmartAPIRequestHandler - headers : {"sourceID":"WEB","clientPublicIP":"103.87.165.35","macAddress":"50-2B-73-E5-D9-5A","userType":"USER","clientLocalIP":"192.168.1.102","accept":"application/json"}
+23:33:40.541 [main] INFO  com.angelbroking.smartapi.http.SmartAPIResponseHandler - ***************************
+23:33:40.880 [main] INFO  com.appdevclaymaster.downloadnsehistoricaldata.DownloadNSEHistoricalData - Fetching data for BERGEPAINT from 2024-03-01 to 2024-03-31
+23:33:40.979 [main] INFO  com.angelbroking.smartapi.http.SmartAPIRequestHandler - headers : {"sourceID":"WEB","clientPublicIP":"103.87.165.35","macAddress":"50-2B-73-E5-D9-5A","userType":"USER","clientLocalIP":"192.168.1.102","accept":"application/json"}
+23:33:41.117 [main] INFO  com.angelbroking.smartapi.http.SmartAPIResponseHandler - ***************************
+23:33:41.458 [main] INFO  com.appdevclaymaster.downloadnsehistoricaldata.DownloadNSEHistoricalData - Fetching data for BERGEPAINT from 2024-04-01 to 2024-04-30
+23:33:41.556 [main] INFO  com.angelbroking.smartapi.http.SmartAPIRequestHandler - headers : {"sourceID":"WEB","clientPublicIP":"103.87.165.35","macAddress":"50-2B-73-E5-D9-5A","userType":"USER","clientLocalIP":"192.168.1.102","accept":"application/json"}
+23:33:41.642 [main] INFO  com.angelbroking.smartapi.http.SmartAPIResponseHandler - ***************************
+23:33:41.981 [main] INFO  com.appdevclaymaster.downloadnsehistoricaldata.DownloadNSEHistoricalData - Fetching data for BERGEPAINT from 2024-05-01 to 2024-05-31
+23:33:42.082 [main] INFO  com.angelbroking.smartapi.http.SmartAPIRequestHandler - headers : {"sourceID":"WEB","clientPublicIP":"103.87.165.35","macAddress":"50-2B-73-E5-D9-5A","userType":"USER","clientLocalIP":"192.168.1.102","accept":"application/json"}
+23:33:45.337 [main] INFO  com.angelbroking.smartapi.http.SmartAPIResponseHandler - ***************************
+23:33:45.675 [main] INFO  com.appdevclaymaster.downloadnsehistoricaldata.DownloadNSEHistoricalData - Fetching data for BERGEPAINT from 2024-06-01 to 2024-06-30
+23:33:45.770 [main] INFO  com.angelbroking.smartapi.http.SmartAPIRequestHandler - headers : {"sourceID":"WEB","clientPublicIP":"103.87.165.35","macAddress":"50-2B-73-E5-D9-5A","userType":"USER","clientLocalIP":"192.168.1.102","accept":"application/json"}
+23:33:45.852 [main] INFO  com.angelbroking.smartapi.http.SmartAPIResponseHandler - ***************************
+23:33:46.191 [main] INFO  com.appdevclaymaster.downloadnsehistoricaldata.DownloadNSEHistoricalData - Fetching data for BERGEPAINT from 2024-07-01 to 2024-07-31
+23:33:46.303 [main] INFO  com.angelbroking.smartapi.http.SmartAPIRequestHandler - headers : {"sourceID":"WEB","clientPublicIP":"103.87.165.35","macAddress":"50-2B-73-E5-D9-5A","userType":"USER","clientLocalIP":"192.168.1.102","accept":"application/json"}
+23:33:46.405 [main] INFO  com.angelbroking.smartapi.http.SmartAPIResponseHandler - ***************************
+23:33:46.744 [main] INFO  com.appdevclaymaster.downloadnsehistoricaldata.DownloadNSEHistoricalData - Fetching data for BERGEPAINT from 2024-08-01 to 2024-08-31
+23:33:46.841 [main] INFO  com.angelbroking.smartapi.http.SmartAPIRequestHandler - headers : {"sourceID":"WEB","clientPublicIP":"103.87.165.35","macAddress":"50-2B-73-E5-D9-5A","userType":"USER","clientLocalIP":"192.168.1.102","accept":"application/json"}
+23:33:46.923 [main] INFO  com.angelbroking.smartapi.http.SmartAPIResponseHandler - ***************************
+23:33:47.260 [main] INFO  com.appdevclaymaster.downloadnsehistoricaldata.DownloadNSEHistoricalData - Fetching data for BERGEPAINT from 2024-09-01 to 2024-09-30
+23:33:47.360 [main] INFO  com.angelbroking.smartapi.http.SmartAPIRequestHandler - headers : {"sourceID":"WEB","clientPublicIP":"103.87.165.35","macAddress":"50-2B-73-E5-D9-5A","userType":"USER","clientLocalIP":"192.168.1.102","accept":"application/json"}
+23:33:47.441 [main] INFO  com.angelbroking.smartapi.http.SmartAPIResponseHandler - ***************************
+23:33:47.780 [main] INFO  com.appdevclaymaster.downloadnsehistoricaldata.DownloadNSEHistoricalData - Fetching data for BERGEPAINT from 2024-10-01 to 2024-10-16
+23:33:47.874 [main] INFO  com.angelbroking.smartapi.http.SmartAPIRequestHandler - headers : {"sourceID":"WEB","clientPublicIP":"103.87.165.35","macAddress":"50-2B-73-E5-D9-5A","userType":"USER","clientLocalIP":"192.168.1.102","accept":"application/json"}
+23:33:47.961 [main] INFO  com.angelbroking.smartapi.http.SmartAPIResponseHandler - ***************************
+23:33:48.303 [main] INFO  com.appdevclaymaster.downloadnsehistoricaldata.DownloadNSEHistoricalData - Fetching data for BHARATFORG from 2024-01-01 to 2024-01-31
+23:33:48.405 [main] INFO  com.angelbroking.smartapi.http.SmartAPIRequestHandler - headers : {"sourceID":"WEB","clientPublicIP":"103.87.165.35","macAddress":"50-2B-73-E5-D9-5A","userType":"USER","clientLocalIP":"192.168.1.102","accept":"application/json"}
